@@ -1,7 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../components/Layout"
+import Seo from "../components/Seo"
 
 export default function ServiceDetail({ data }) {
     const content = data.markdownRemark.frontmatter
@@ -19,7 +19,7 @@ export default function ServiceDetail({ data }) {
         </Layout>
     )
 }
-
+ 
 export const servicePage = graphql`
 query ($slug: String) {
     markdownRemark(fields: {slug: {eq: $slug}}) {
