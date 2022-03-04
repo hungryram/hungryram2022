@@ -1,0 +1,14 @@
+.service-block {
+    width: 100px;
+}
+
+.block-section {
+    background: #111;
+}
+
+.service-list li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #e5e5e5;
+    list-style: none;
+}

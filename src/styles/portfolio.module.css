@@ -1,0 +1,23 @@
+.portfolio-card {
+    transition: .3s ease;
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.portfolio-card:hover {
+    transition: .3s ease;
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 30%);
+    padding-bottom: 6px;
+    padding-top: 5px;
+}
+
+.statistic-container {
+    border-radius: 10px;
+    background-color: rgb(10, 37, 64);
+}
+
+.portfolio-content {
+    font-size: 18px;
+    line-height: 2;
+}

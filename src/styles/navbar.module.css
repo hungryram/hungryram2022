@@ -1,0 +1,7 @@
+.navbar-top ul li a {
+    min-height: 45px;
+}
+
+.navbar-top {
+    background-color: #0A2540;
+}

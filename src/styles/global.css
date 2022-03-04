@@ -1,0 +1,41 @@
+.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, .uk-heading-2xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.uk-button.uk-button-primary {
+    background-color: var(--primary-btn-background);
+    border-radius: 5px;
+}
+
+.link-primary {
+    color: var(--primary-link-color);
+}
+
+.home-featured h2.uk-h4 {
+    border-left: 2px solid #0b6ae6;
+    padding-left: 10px;
+}
+
+footer ul li a {
+    color: #bac0c3;
+}
+
+footer h3.uk-h5 {
+    color: #fff;
+}
+
+footer .uk-navbar-nav>li>a {
+    text-transform: capitalize;
+}
+
+footer .footer-credit {
+    border-bottom: 1px solid rgb(51, 51, 51);
+    padding-bottom: 20px;
+}
+
