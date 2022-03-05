@@ -3,15 +3,10 @@ module.exports = {
     title: `new`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-image",
+  plugins: [
+    "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        "icon": "src/images/icon.png"
-      }
-    },
     "gatsby-transformer-remark",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",

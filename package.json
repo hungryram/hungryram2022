@@ -18,7 +18,6 @@
     "@react-icons/all-files": "^4.1.0",
     "gatsby": "^4.8.0",
     "gatsby-plugin-image": "^2.8.1",
-    "gatsby-plugin-manifest": "^4.8.1",
     "gatsby-plugin-react-helmet": "^5.8.0",
     "gatsby-plugin-sharp": "^4.8.1",
     "gatsby-plugin-sitemap": "^5.8.0",
