@@ -3,7 +3,7 @@ import * as React from "react"
 import Logos from "../components/blocks/logos"
 import PrimaryButton from "../components/blocks/primarybutton"
 import PrimaryLink from "../components/blocks/primarylink"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import { Link } from "gatsby"
 
 export default function Index() {

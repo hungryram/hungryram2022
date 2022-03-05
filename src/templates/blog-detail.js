@@ -1,8 +1,8 @@
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import * as React from "react"
-import Layout from "../../components/layout"
-import Seo from "../../components/seo"
-import * as Styles from "../../styles/blog.module.css"
+import Layout from "../components/Layout"
+import Seo from "../components/Seo"
+import * as Styles from "../styles/blog.module.css"
 
 export default function BlogDetail({ data }) {
   const post = data.blogpost

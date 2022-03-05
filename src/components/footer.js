@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import Hrlogo from "../images/2021-hungry-ram-logo-black.png"
 import HrWhiteLogo from "../images/2021-hungry-ram-logo-white_bncaxe.png"
 
 export default function Footer() {

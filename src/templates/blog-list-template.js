@@ -25,7 +25,6 @@ export default class BlogList extends React.Component {
           <div className="uk-container">
             <div className="uk-child-width-1-2@s uk-grid-small" data-uk-grid>
               {posts.map(({ node }) => {
-                const title = node.frontmatter.title || node.fields.slug
                 return (
                   <div>
                     <Link to={"/blog" + node.fields.slug} className="uk-link-reset">

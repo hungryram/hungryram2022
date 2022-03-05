@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { BsChevronDown } from "@react-icons/all-files/bs/BsChevronDown";
-import { StaticImage } from "gatsby-plugin-image";
 import * as Styles from "../styles/navbar.module.css"
 import Logo from "../images/2021-hungry-ram-logo-black.png"
 

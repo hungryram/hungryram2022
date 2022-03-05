@@ -1,7 +1,7 @@
 import * as React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import { graphql } from "gatsby"
-import Seo from "../components/seo"
+import Seo from "../components/Seo"
 
 export default function LegalDetail({ data }) {
     return (

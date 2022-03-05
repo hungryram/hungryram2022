@@ -2,7 +2,7 @@ import * as React from 'react'
 import Helmet from 'react-helmet'
 import Navbar from './Navbar'
 import "../styles/global.css"
-import Footer from './footer'
+import Footer from './Footer'
 
 export default function Layout({ children }) {
 
