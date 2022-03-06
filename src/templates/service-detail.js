@@ -1,10 +1,10 @@
 import { graphql, Link } from "gatsby"
 import * as React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import showdown from "showdown"
 import * as Styles from "../styles/servicedetail.module.css"
 import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight"
-import Seo from "../components/seo"
+import Seo from "../components/Seo"
 
 
 export default function ServiceTemplate({ data }) {

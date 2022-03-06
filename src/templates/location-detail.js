@@ -2,7 +2,7 @@ import { graphql } from "gatsby"
 import * as React from "react"
 import Layout from "../components/Layout"
 import Showdown from "showdown"
-import Seo from "../components/seo"
+import Seo from "../components/Seo"
 
 export default function LocationDetail({ data }) {
   const frontMatter = data.markdownRemark.frontmatter
