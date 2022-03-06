@@ -8,8 +8,8 @@ export default function PortfolioList({ data }) {
     return (
         <Layout>
             <Seo
-                title="Our Portfolio"
-                description=""
+                title="Web Design Portfolio | Hungry Ram Web Design"
+                description="View our customers who trust us to build their site and establish a long term relationship"
             />
             <div className="uk-margin-large">
                 <div className="uk-section">

@@ -22,7 +22,8 @@ body {
     padding-left: 10px;
 }
 
-footer ul li a {
+footer ul.uk-nav li a,
+footer ul li p {
     color: #bac0c3;
 }
 

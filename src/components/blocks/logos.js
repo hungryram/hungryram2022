@@ -1,16 +1,20 @@
 import * as React from "react"
 import Serhant from "../../images/serhant.png"
+import RealtyOneGroup from "../../images/realtyone-logo-new.png"
+import C21 from "../../images/c21garlandlogo2.png"
+import PhoHa from "../../images/pho-ha-plus.png"
+import Exp from "../../images/exp-brokered-by.png"
 
 export default function Logos() {
     return (
         <div className="uk-section">
             <div className="uk-container uk-container-small">
                 <div className="uk-margin-large uk-text-center">
-                <h2 className="uk-h4">Trusted by big names</h2>
+                <h2 className="uk-h4">Trusted by Established Names</h2>
                 </div>
                 <div className="uk-position-relative uk-text-center" tabindex="-1" data-uk-slider>
 
-                    <ul className="uk-slider-items uk-child-width-1-5 uk-grid uk-grid-large">
+                    <ul className="uk-slider-items uk-child-width-1-4 uk-grid uk-grid-large">
                         <li>
                             <div className="uk-panel">
                                 <img src={Serhant} alt="" width="150" />
@@ -18,22 +22,22 @@ export default function Logos() {
                         </li>
                         <li>
                             <div className="uk-panel">
-                                <img src={Serhant} alt="" width="150" />
+                                <img src={RealtyOneGroup} alt="" width="150" />
                             </div>
                         </li>
                         <li>
                             <div className="uk-panel">
-                                <img src={Serhant} alt="" width="150" />
+                                <img src={C21} alt="" width="150" />
                             </div>
                         </li>
                         <li>
                             <div className="uk-panel">
-                                <img src={Serhant} alt="" width="150" />
+                                <img src={PhoHa} alt="" width="150" />
                             </div>
                         </li>
                         <li>
                             <div className="uk-panel">
-                                <img src={Serhant} alt="" width="150" />
+                                <img src={Exp} alt="" width="100" />
                             </div>
                         </li>
                     </ul>

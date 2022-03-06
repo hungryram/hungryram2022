@@ -6,8 +6,8 @@ export default function Contact() {
     return (
         <Layout>
             <Seo
-                title="Contact"
-                description=""
+                title="Contact | Hungry Ram Web Design"
+                description="Ready to build your real estate business with modern technology? Let's get in touch!"
             />
 
             <div className="uk-section uk-section-large">

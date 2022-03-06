@@ -6,13 +6,14 @@ export default function About() {
   return (
     <Layout>
       <Seo
-        title="About"
+        title="About Us - Hungry Ram Web Design"
+        description="Located in Orange County, CA. Learn how we provide the most unique websites for businesses across the country."
       />
       <div className="uk-section">
         <div className="uk-container">
           <div className="uk-flex uk-flex-center">
             <div className="uk-width-3-4 uk-text-center">
-              <h2 className="uk-heading-small">About us</h2>
+              <h2 className="uk-heading-small">About Hungry Ram</h2>
               <div>
                 <p>Hungry Ram Web Design is a small studio founded by Ram Dettmer located in Yorba Linda, CA. We are a team of web designers and graphic designers with a passion for anything tech. There is never a day where we never stop learning and this has helped us stand out from larger agencies.</p>
               </div>
@@ -31,11 +32,11 @@ export default function About() {
         <div className="uk-container">
           <div className="uk-child-width-1-2@s" data-uk-grid>
             <div>
-              <h2>Create your own professional web presence—exactly the way you want.</h2>
+              <h2>We provide premium website development for fast and reliable websites</h2>
             </div>
             <div>
-              <p>Our powerful technology allows everyone to get online with a personalized, professional web presence. Whether it’s your first time creating or you’re a long time expert, you’ll find the features and solutions you need to build a professional website with total creative freedom</p>
-              <p>Our global user base, open SDK, and unparalleled design capabilities create a unique ecosystem. Partners, developers, web designers, and other online professionals can effectively market their apps and services to millions through Wix.</p>
+              <p>We have achieved success by moving away from the direction most agencies were going towards - building on WordPress, or any other website builders out there. Website builders allow for easy customization without having to touch code which allows agencies to deliver faster designs.</p>
+              <p>Back in 2018, we learned that there was a new way to build faster and more secure websites that only experienced independent developers had adopted, and that way was using the jamstack architecture. So we decided to utilize this method and give our clients the upper hand. Jamstack sites are essentially hand-coded from scratch without the need for a database, resulting in a much more secure and faster website.</p>
             </div>
           </div>
         </div>
