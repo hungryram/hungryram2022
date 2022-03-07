@@ -1,6 +1,12 @@
 import * as React from "react"
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
+import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight"
+import { AiFillFacebook } from "@react-icons/all-files/ai/AiFillFacebook"
+import { AiFillInstagram } from "@react-icons/all-files/ai/AiFillInstagram"
+import { Link } from "gatsby"
+import social from "../../data/profile"
+import * as Styles from "../styles/contact.module.css"
 
 export default function Contact() {
     return (
@@ -16,14 +22,18 @@ export default function Contact() {
                         <div>
                             <div className="uk-width-large">
                             <h2>Contact</h2>
-                            <p><strong>Stop wondering if Storyblok is the right fit for your business - we look forward to working with you and your team to help you achieve your goal. Storyblok helps enterprises organize their content for the world.</strong></p>
+                            <p><strong>Stop wondering if we're the right team for your website. While most websites are stuck on WordPress, our websites are built to outperform websites like WordPress and Wix.</strong></p>
                             <p>Contact us today to:</p>
-                            <ul>
-                                <li>Discover Storyblok’s powerful content management capabilities</li>
-                                <li>Understand how Storyblok can help your business</li>
-                                <li>Discover Storyblok’s powerful content management capabilities</li>
+                            <ul className="uk-list">
+                                <li><BsArrowRight /> Get a high-performing website</li>
+                                <li><BsArrowRight /> Understand how modern web technology can improve your site</li>
+                                <li><BsArrowRight /> Get consultation for your website project</li>
                             </ul>
-                            <p>To learn more about our Enterprise offering, check out Storyblok for Enterprises. To get support, please visit our forum, use our live chat or join us on Discord.</p>
+                            <h2 className="uk-h3">Let's connect</h2>
+                            <div className={Styles.socialIcons}>
+                                <Link to="{social.social_media.facebook}"><AiFillFacebook /></Link>
+                                <Link to="{social.social_media.instagram}"><AiFillInstagram /></Link>
+                            </div>
                             </div>
                         </div>
                         <div>

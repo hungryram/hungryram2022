@@ -6,6 +6,7 @@ import PrimaryLink from "../components/blocks/primarylink"
 import Layout from "../components/Layout"
 import { Link } from "gatsby"
 import * as Styles from "../styles/home.module.css"
+import EricaJ from "../images/erica-jackson.jpg"
 
 export default function Index() {
   return (
@@ -39,14 +40,22 @@ export default function Index() {
           <div className="uk-width-xlarge">
             <h2>We specialize in real estate and small business websites</h2>
           </div>
-          <div className="uk-column-1-2">
-            <p>We bring together everything that’s required to build websites and apps that accept payments and send payouts globally. Stripe’s products power payments for online and in-person retailers, subscriptions businesses, software platforms and marketplaces, and everything in between.</p>
-            <p>We also help companies beat fraud, send invoices, issue virtual and physical cards, get financing, manage business spend, and much more.</p>
+          <div className="uk-child-width-1-2@s" data-uk-grid>
+            <div>
+            <p>Hungry Ram delivers a better solution that gives our clients in real estate and small businesses the edge over their competitors. We adopted a new method called Jamstack that provides the fastest and most secure websites. With our efficiently built webites, our clients see an average of 20% increase in conversion rates when they use our website!</p>
+
+            </div>
+            <div>
+            <p>WordPress is the most used website builder in the world for real estate and small businesses. This means that all of your competitors are using it too, and that's a problem when you want to stand out.</p>
+
+            </div>
           </div>
+          <div className="uk-margin-medium-top">
           <PrimaryButton
             btnLink="/contact"
             btnLabel="Get in touch"
           />
+          </div>
         </div>
       </div>
 
@@ -87,7 +96,7 @@ export default function Index() {
             </div>
           </div>
 
-      <div className="uk-section uk-section-large" style={{ backgroundColor: "#0A2540" }}>
+      <div className="uk-section uk-section-large" style={{ backgroundColor: "#0A2540", paddingTop: "200px" }}>
         <div className="uk-container">
           <div className="uk-flex-middle" data-uk-grid>
             <div className="uk-width-1-2@s">
@@ -113,7 +122,9 @@ export default function Index() {
               </div>
             </div>
             <div className="uk-width-1-2">
-              <img src="https://prsimic-marketing-slicemachine.cdn.prismic.io/prsimic-marketing-slicemachine/40e11500-50be-4fa2-9c63-4187f4d03643_Illustration3.svg" alt="" />
+              <StaticImage
+                src="../images/real-estate-web-design.png"
+              />
             </div>
           </div>
         </div>
@@ -174,42 +185,42 @@ export default function Index() {
               <div>
                 <div className="uk-card">
                   <h2 className="uk-h4">Responsive web design</h2>
-                  <p>We offer client and server libraries in everything from React and PHP to .NET and iOS.</p>
+                  <p>Delivering the best browsing experience for your visitors on any device and modern browsers.</p>
 
                 </div>
               </div>
               <div>
                 <div className="uk-card">
                   <h2 className="uk-h4">Easy-to-navigate website</h2>
-                  <p>We offer client and server libraries in everything from React and PHP to .NET and iOS.</p>
+                  <p>Ideal website structure allows your visitors to find the inforamtion they need about your business.</p>
 
                 </div>
               </div>
               <div>
                 <div className="uk-card">
                   <h2 className="uk-h4">Revolutionary approach</h2>
-                  <p>Major brands like Airbnb and Nike are moving to modern web development technologies like Jamstack.</p>
+                  <p>Major brands like Airbnb and Nike are building websites with jamstack for all its performance and security benefits.</p>
 
                 </div>
               </div>
               <div>
                 <div className="uk-card">
                   <h2 className="uk-h4">Customized Admin</h2>
-                  <p>We offer client and server libraries in everything from React and PHP to .NET and iOS.</p>
+                  <p>A unique admin customized to your website. Take control of your content and information.</p>
 
                 </div>
               </div>
               <div>
                 <div className="uk-card">
-                  <h2 className="uk-h4">Consulting & discovery</h2>
-                  <p>We offer client and server libraries in everything from React and PHP to .NET and iOS.</p>
+                  <h2 className="uk-h4">Automated backups</h2>
+                  <p>No more worrying about losing information. Your website will be able to retrieve information you've saved in the past.</p>
 
                 </div>
               </div>
               <div>
                 <div className="uk-card">
                   <h2 className="uk-h4">Ongoing support & maintenance</h2>
-                  <p>We offer client and server libraries in everything from React and PHP to .NET and iOS.</p>
+                  <p>Receive new website features and updates. Don't have time to update your site? Our developers are always available.</p>
 
                 </div>
               </div>
@@ -222,31 +233,27 @@ export default function Index() {
         <div className="uk-container">
           <div className="uk-child-width-1-2@s uk-flex-middle uk-grid-large" data-uk-grid>
             <div>
-              <h2>Take control of your content, wherever it goes</h2>
-              <p>Read the case study on how SERHANT has sped up development time. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit fugit corporis eius vel perferendis totam animi minus eum officiis? Dignissimos, molestias! Maxime, magni iste! Optio totam soluta placeat possimus iure!</p>
-              <PrimaryLink
-                link="/contact"
-                label="View Case Study"
-              />
+              <h2>A powerful investment for business owners</h2>
+              <p>Big companies like Microsoft, Shopify, and Nike are becoming involved in modern development like Jamstack. Jamstack delivers incredible user-experience and powerful ways to outrank your competitors.</p>
               <div className="uk-margin-medium-top uk-width-large">
-                <p className="uk-text-default">“Storyblok was a perfect fit for us. On the one hand, it was satisfying the developers who wanted to have a nicely structured API-based system, and on the other hand, business users got a really good looking interface with real-time live preview.”</p>
-                <div className="uk-grid-collapse uk-flex-middle" data-uk-grid>
-                  <div className="uk-width-1-3">
-                    <img src="https://a.storyblok.com/f/88751/200x200/18f20905e3/1517498042262.jpeg/m/96x96/" alt="" className="uk-border-circle" />
+                <p className="uk-text-default">"My experience with Ram was amazing.  He is extremely professional, a great communicator and has been able to bring my vision to life.  Not to mention, my custom website was very affordable and completed very quickly.  I highly recommend Ram to anyone look for a high quality, professional website.  Ram, I can’t thank you enough!"</p>
+                <div className="uk-grid-small uk-flex-middle" data-uk-grid>
+                  <div className="uk-width-1-4">
+                    <img src={EricaJ} alt="" className="uk-border-circle" />
                   </div>
                   <div className="uk-width-expand">
                     <p className="uk-text-default uk-text-bold uk-margin-remove">
-                      Johannes De Zordo
+                      Erica Jackson
                     </p>
                     <p className="uk-text-default uk-margin-remove">
-                      CTO at SERHANT.
+                      Broker at Complex Living Real Estate
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div>
-              <img src="https://a.storyblok.com/f/88751/1634x1092/8dab7ce967/marc-o-polo.jpg/m/1000x0/" alt="" />
+              <img src="https://res.cloudinary.com/hungryram19/image/upload/v1646603539/hungryram/erica-jackson.png" alt="" />
             </div>
           </div>
         </div>

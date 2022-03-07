@@ -21,7 +21,7 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="uk-visible@m">
                 <nav className="uk-navbar-container uk-navbar-transparent">
                     <div className="uk-container">
                         <div data-uk-navbar>

@@ -1,9 +1,9 @@
 import * as React from "react";
-import { Link } from "gatsby";
+import { graphql, Link } from "gatsby";
 import HrWhiteLogo from "../images/2021-hungry-ram-logo-white_bncaxe.png"
-import data from "../../data/profile"
+import contact from "../../data/profile"
 
-export default function Footer() {
+export default function Footer({data}) {
     return (
         <footer style={{ backgroundColor: "#15171A" }}>
             <div className="uk-section">
@@ -16,27 +16,27 @@ export default function Footer() {
                             <h3 className="uk-h5">Websites</h3>
                             <ul className="uk-nav uk-nav-default">
                                 {
-                                    data.contact_information.email &&
+                                    contact.contact_information.email &&
                                     <li>
-                                        <a href={`mailto: ${data.contact_information.email}`}>{data.contact_information.email}</a>
+                                        <a href={`mailto: ${contact.contact_information.email}`}>{contact.contact_information.email}</a>
                                     </li>
                                 }
                                 {
-                                    data.contact_information.office &&
+                                    contact.contact_information.office &&
                                     <li>
-                                        <a href={`tel: ${data.contact_information.office}`}>Office: {data.contact_information.office}</a>
+                                        <a href={`tel: ${contact.contact_information.office}`}>Office: {contact.contact_information.office}</a>
                                     </li>
                                 }
                                 {
-                                    data.contact_information.cell &&
+                                    contact.contact_information.cell &&
                                     <li>
-                                        <a href={`tel: ${data.contact_information.cell}`}>Direct: {data.contact_information.cell}</a>
+                                        <a href={`tel: ${contact.contact_information.cell}`}>Direct: {contact.contact_information.cell}</a>
                                     </li>
                                 }
                                 {
-                                    data.contact_information.address &&
+                                    contact.contact_information.address &&
                                     <li>
-                                        <a href="#">{data.contact_information.address}, {data.contact_information.city}, {data.contact_information.state} {data.contact_information.zip_code} </a>
+                                        <a href="#">{contact.contact_information.address}, {contact.contact_information.city}, {contact.contact_information.state} {contact.contact_information.zip_code} </a>
                                     </li>
                                 }
                             </ul>
@@ -101,6 +101,20 @@ export default function Footer() {
                         </div>
                     </div>
                     <p><small>&copy; Copyright {new Date().getFullYear()} &middot; <Link to="https://www.hungryram.com/" className="uk-link-reset">Hungry Ram LLC</Link></small></p>
+                    <p>
+                    <small>
+                    <ul className="uk-nav uk-nav-default">
+                        <li className="uk-display-inline-block uk-margin-small-right">
+                            <Link to="/legal/accessibility">Accessibility</Link>
+                        </li>
+                        <li className="uk-display-inline-block uk-margin-small-right">
+                            <Link to="/legal/privacy-policy/">Terms and Conditions</Link>
+                        </li>
+                        <li className="uk-display-inline-block uk-margin-small-right">
+                            <Link to="/legal/terms-and-conditions/">Privacy Policy</Link>
+                        </li>
+                    </ul>
+                    </small></p>
                 </div>
             </div>
         </footer>

@@ -30,7 +30,7 @@ export default function ServiceTemplate({ data }) {
                 intro1.body &&
                 <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(intro1.body) }} />
               }
-              <Link data-uk-toggle="target: #modal-signup" className="uk-button uk-button-primary">Contact</Link>
+              <Link to="/contact" className="uk-button uk-button-primary">Contact</Link>
             </div>
             <div>
               <img src={frontMatter.image} alt={frontMatter.image_alt_tag} />

@@ -47,49 +47,48 @@ export default function About() {
           <div className="uk-card-body">
             <div className="uk-flex uk-flex-center uk-margin-large-top">
               <div className="uk-width-xlarge uk-light uk-text-center">
-                <h2 className="uk-heading-small">Our Values</h2>
+                <h2 className="uk-heading-small">Why work with us</h2>
               </div>
             </div>
             <div className="uk-child-width-1-3@s uk-light uk-margin-large-top uk-margin-large-bottom" data-uk-grid>
               <div>
                 <div className="uk-card">
-                  <h2 className="uk-h4">Tools for every stack</h2>
-                  <p>We offer client and server libraries in everything from React and PHP to .NET and iOS.</p>
+                  <h2 className="uk-h4">Consulting & research</h2>
+                  <p>Every website has different needs. We'll find out tools that will benefit your website and streamline processes.</p>
 
                 </div>
               </div>
               <div>
                 <div className="uk-card">
-                  <h2 className="uk-h4">Tools for every stack</h2>
-                  <p>We offer client and server libraries in everything from React and PHP to .NET and iOS.</p>
+                  <h2 className="uk-h4">Modern technology</h2>
+                  <p>We aim to always provide the latest web development technologies for our clients.</p>
 
                 </div>
               </div>
               <div>
                 <div className="uk-card">
-                  <h2 className="uk-h4">Tools for every stack</h2>
-                  <p>We offer client and server libraries in everything from React and PHP to .NET and iOS.</p>
+                  <h2 className="uk-h4">Our passion</h2>
+                  <p>With over a decade of development experience, our websites are built with clean code in mind.</p>
 
                 </div>
               </div>
               <div>
                 <div className="uk-card">
-                  <h2 className="uk-h4">Tools for every stack</h2>
-                  <p>We offer client and server libraries in everything from React and PHP to .NET and iOS.</p>
+                  <h2 className="uk-h4">The best support</h2>
+                  <p>Always get support to your website outside office hours. We go above and beyond to take care of our clients.</p>
 
                 </div>
               </div>
               <div>
                 <div className="uk-card">
-                  <h2 className="uk-h4">Tools for every stack</h2>
-                  <p>We offer client and server libraries in everything from React and PHP to .NET and iOS.</p>
-
+                  <h2 className="uk-h4">Built for your audience</h2>
+                  <p>Our websites are built with your target audience in mind. So they can easily find what they need.</p>
                 </div>
               </div>
               <div>
                 <div className="uk-card">
-                  <h2 className="uk-h4">Tools for every stack</h2>
-                  <p>We offer client and server libraries in everything from React and PHP to .NET and iOS.</p>
+                  <h2 className="uk-h4">Built with SEO</h2>
+                  <p>Not only do we focus on making your site look good, we optimize all web pages with SEO in mind so you can rank higher.</p>
 
                 </div>
               </div>

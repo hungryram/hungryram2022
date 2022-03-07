@@ -13,6 +13,7 @@ export default function Layout({ children }) {
                     {`
                         :root {
                             --primary-btn-background: #0B6AE6;
+                            --primary-accent-color: #0B6AE6;
                             --primary-link-color: #0B6AE6;
                         }
                     `}

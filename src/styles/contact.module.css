@@ -1,0 +1,5 @@
+.social-icons svg {
+    color: var(--primary-accent-color);
+    width: 25px;
+    margin-right: 10px;
+}

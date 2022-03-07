@@ -3,6 +3,7 @@ import Layout from "../../components/Layout"
 import Seo from "../../components/Seo"
 import { Link, graphql } from "gatsby"
 import * as Styles from "../../styles/servicedetail.module.css"
+import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight"
 
 export default function ServiceList({ data }) {
     return (
@@ -33,7 +34,7 @@ export default function ServiceList({ data }) {
                         <div className="uk-width-3-5@s">
                             <div className="uk-margin-large">
                                 <h2>Web Design Services</h2>
-                                <p>Not sure where to begin? Dive into our tutorials and guides for people who are new to Ghost and setting up a brand new publication.</p>
+                                <p>We design websites using the latest web development tools and trends with Jamstack - the future of web development</p>
                             </div>
                             <ul className={Styles.serviceList}>
 
@@ -42,7 +43,7 @@ export default function ServiceList({ data }) {
                                         <>
                                             {node.frontmatter.web_design &&
                                                 <li>
-                                                    <Link to={"/services" + node.fields.slug}>{node.frontmatter.title}</Link>
+                                                    <Link to={"/services" + node.fields.slug} className="uk-link-reset"> {node.frontmatter.title}</Link>
                                                 </li>
                                             }
                                         </>
@@ -53,7 +54,7 @@ export default function ServiceList({ data }) {
                     </div>
                 </div>
             </div>
-            <div className="uk-section">
+            {/* <div className="uk-section">
                 <div className="uk-container">
                     <div className="uk-flex-middle uk-grid-large" data-uk-grid>
                         <div className="uk-width-expand@s">
@@ -81,7 +82,7 @@ export default function ServiceList({ data }) {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="uk-section">
                 <div className="uk-container">
                     <div className="uk-flex-middle uk-grid-large" data-uk-grid>
@@ -91,7 +92,7 @@ export default function ServiceList({ data }) {
                         <div className="uk-width-3-5@s">
                             <div className="uk-margin-large">
                                 <h2>What our websites include</h2>
-                                <p>Not sure where to begin? Dive into our tutorials and guides for people who are new to Ghost and setting up a brand new publication.</p>
+                                <p>Modern websites should be built like a fortress with responsive design. Learn more on why we include these website essentials.</p>
                             </div>
                             <ul className={Styles.serviceList}>
 
@@ -100,7 +101,7 @@ export default function ServiceList({ data }) {
                                         <>
                                             {node.frontmatter.perks &&
                                                 <li>
-                                                    <Link to={"/services" + node.fields.slug}>{node.frontmatter.title}</Link>
+                                                    <Link to={"/services" + node.fields.slug} className="uk-link-reset">{node.frontmatter.title}</Link>
                                                 </li>
                                             }
                                         </>
