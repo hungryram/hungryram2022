@@ -9,14 +9,30 @@ export default function Navbar() {
     return (
         <div>
             <div className={Styles.navbarTop} style={{ backgroundColor: "#0A2540" }}>
-                <div className="uk-container">
+                <div className="uk-container uk-light">
                     <div data-uk-navbar>
                         <div className="uk-navbar-left">
+                            <ul className="uk-navbar-nav">
+                                <li>
+                                    <a href="https://www.facebook.com/HungryRam/" target="_blank" rel="noopener">FB</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/ramdettmer/" target="_blank" rel="noopener">IG</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.yelp.com/biz/hungry-ram-yorba-linda" target="_blank" rel="noopener">YP</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="uk-navbar-right">
                         <ul className="uk-navbar-nav">
-                        <li>
-                            <Link to="/">FB</Link>
-                        </li>
-                        </ul>
+                                <li>
+                                    <a href="tel:(657) 549-5082)" target="_blank" rel="noopener">(657) 549-5082)</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:ram@hungryram.com" target="_blank" rel="noopener">ram@hungryram.com</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -27,7 +43,7 @@ export default function Navbar() {
                         <div data-uk-navbar>
                             <div className="uk-navbar-left">
                                 <Link to="/">
-                                    <img src={Logo} alt="" width="200"/>
+                                    <img src={Logo} alt="Hungry Ram Web Design" width="200" />
                                 </Link>
                             </div>
                             <div className="uk-navbar-right">
@@ -76,7 +92,6 @@ export default function Navbar() {
                                             </ul>
                                         </div>
                                     </li>
-                                    <li><Link to="/locations">Locations</Link></li>
                                     <li><Link to="/contact">Contact</Link></li>
                                     <div className="uk-navbar-item">
                                         <li><a class="uk-button uk-button-primary" href="https://calendly.com/hungry-ram" rel="noopener" target="_blank">Book a call</a></li>

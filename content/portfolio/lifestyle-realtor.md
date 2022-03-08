@@ -2,12 +2,12 @@
 approach: Since Wordpress was the fastest way to build sites in modern day, we decided
   on Wordpress and IDX integration which would allow visitors to search homes within
   his MLS.
-client_name: Antonio Matier
+speed: "95"
+performance: "100"
+seo: "100"
+introduction: Antonio Matier needed an upgrade from his site he had for years. He decided to give jamstack a chance. Now, his website page speed has increased dramatically.
 date: "2019-12-27T08:00:00Z"
 date_completed: "2019-12-18T08:00:00.000+00:00"
-meta_description: Antonio Matier is the broker of Lifestyle, CA. Mainly focusing on luxury
-  real estate, he was looking to have a site up and running as soon as possible.
-title_tag: Lifestyle Real Estate Case Study
 featured_image: https://res.cloudinary.com/hungryram19/image/upload/v1631942389/hungryram/lifestylerealtor.jpg
 gallery:
 - /uploads/antonio-matier-profile.jpg
@@ -20,6 +20,9 @@ review: Ram worked on my website and delivered all my requests. I am proud to ha
   requests.
 title: Lifestyle Realtor
 website_link: https://lifestyleca.com
+search_engine_optimization:
+  meta_description: Antonio Matier is the broker of Lifestyle, CA. Mainly focusing on luxury real estate, he was looking to have a site up and running as soon as possible.
+  title_tag: Lifestyle Real Estate Case Study
 ---
 ### Overview
 

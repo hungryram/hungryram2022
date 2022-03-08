@@ -11,6 +11,12 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.hungryram.com`,
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         "name": "images",

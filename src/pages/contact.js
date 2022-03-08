@@ -4,7 +4,6 @@ import Seo from "../components/Seo"
 import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight"
 import { AiFillFacebook } from "@react-icons/all-files/ai/AiFillFacebook"
 import { AiFillInstagram } from "@react-icons/all-files/ai/AiFillInstagram"
-import { Link } from "gatsby"
 import social from "../../data/profile"
 import * as Styles from "../styles/contact.module.css"
 
@@ -31,8 +30,8 @@ export default function Contact() {
                             </ul>
                             <h2 className="uk-h3">Let's connect</h2>
                             <div className={Styles.socialIcons}>
-                                <Link to="{social.social_media.facebook}"><AiFillFacebook /></Link>
-                                <Link to="{social.social_media.instagram}"><AiFillInstagram /></Link>
+                                <a href={social.social_media.facebook} target="_blank" rel="noopener"><AiFillFacebook /></a>
+                                <a href={social.social_media.instagram} target="_blank" rel="noopener"><AiFillInstagram /></a>
                             </div>
                             </div>
                         </div>

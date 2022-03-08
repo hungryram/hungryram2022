@@ -1,10 +1,12 @@
 ---
 client_name: Randy Nong
 date: "2021-09-12T07:00:00Z"
+speed: "100"
+performance: "100"
+seo: "100"
+introduction: Randy Nong, the owner of RN Insurance needed a website to help him stand out from local competitors. With a Jamstack website, his brand new site is now climbing up the SEO ladder.
 featured_image: https://res.cloudinary.com/hungryram19/image/upload/v1632030927/hungryram/RN-insurance_cyylok.jpg
 image_alt_tag: RN Insurance web design
-meta_description: Find out how Hungry Ram helped a new insurance agency in Massachusetts
-  get a high performing website and a completely healthy site score.
 projects:
 - Small Business
 review: Ram did a great job on my website! He asked to right questions and instead
@@ -12,8 +14,10 @@ review: Ram did a great job on my website! He asked to right questions and inste
   his attention to detail. Ram exceeding all my expectations!
 short_description: ""
 title: RN Insurance
-title_tag: RN Insurance Case Study - Hungry Ram Web Design
 website_link: https://rninsurance.com/
+search_engine_optimization:
+  meta_description: Find out how Hungry Ram helped a new insurance agency in Massachusetts get a high performing website and a completely healthy site score.
+  title_tag: RN Insurance Case Study - Hungry Ram Web Design
 ---
 ## Project Overview
 

@@ -17,24 +17,32 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 }
 
 exports.createPages = async function ({ actions, graphql }) {
-const { createPage } = actions
+  const { createPage } = actions
 
   const { data } = await graphql(`
   {
-    portfolio: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/portfolio/"}}) {
+    blog: allMarkdownRemark(
+      filter: {fileAbsolutePath: {regex: "/blog/"}}
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 1000
+    ) {
       edges {
         node {
           fields {
             slug
           }
+          frontmatter {
+            categories
+          }
         }
       }
     }
-    blog: allMarkdownRemark(
-        filter: {fileAbsolutePath: {regex: "/blog/"}}
-        sort: { fields: [frontmatter___date], order: DESC }
-        limit: 1000
-        ) {
+    tagsGroup: allMarkdownRemark(limit: 2000) {
+      group(field: frontmatter___categories) {
+        fieldValue
+      }
+    }
+    portfolio: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/portfolio/"}}) {
       edges {
         node {
           fields {
@@ -73,9 +81,35 @@ const { createPage } = actions
   }
 `)
 
+  const post = data.blog.edges
+  post.forEach(({ node }) => {
+    createPage({
+      path: "/blog" + node.fields.slug,
+      component: path.resolve("src/templates/blog-detail.js"),
+      context: { slug: node.fields.slug },
+    })
+  })
+
+  // Extract tag data from query
+  const cat = data.tagsGroup.group
+  // Make tag pages
+  cat.forEach(cat => {
+    createPage({
+      path: `/categories/${_.kebabCase(cat.fieldValue)}/`,
+      component: path.resolve("src/templates/categories.js"),
+      context: {
+        categories: cat.fieldValue,
+      },
+    })
+  })
+
+
+
+
+
   // Create blog-list pages
   const posts = data.blog.edges
-  const postsPerPage = 6
+  const postsPerPage = 16
   const numPages = Math.ceil(posts.length / postsPerPage)
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
@@ -91,7 +125,7 @@ const { createPage } = actions
   })
 
 
-// CREATE PORTFOLIO DETAIL
+  // CREATE PORTFOLIO DETAIL
   data.portfolio.edges.forEach(edge => {
     const slug = edge.node.fields.slug
     actions.createPage({
@@ -121,23 +155,23 @@ const { createPage } = actions
     })
   })
 
-    // CREATE LOCATION DETAIL
-    data.locations.edges.forEach(edge => {
-      const slug = edge.node.fields.slug
-      actions.createPage({
-        path: "/locations" + slug,
-        component: path.resolve(`./src/templates/location-detail.js`),
-        context: { slug: slug },
-      })
+  // CREATE LOCATION DETAIL
+  data.locations.edges.forEach(edge => {
+    const slug = edge.node.fields.slug
+    actions.createPage({
+      path: "/locations" + slug,
+      component: path.resolve(`./src/templates/location-detail.js`),
+      context: { slug: slug },
     })
+  })
 
-        // CREATE LEGAL PAGE
-        data.legal.edges.forEach(edge => {
-          const slug = edge.node.fields.slug
-          actions.createPage({
-            path: "/legal" + slug,
-            component: path.resolve(`./src/templates/legal-detail.js`),
-            context: { slug: slug },
-          })
-        })
+  // CREATE LEGAL PAGE
+  data.legal.edges.forEach(edge => {
+    const slug = edge.node.fields.slug
+    actions.createPage({
+      path: "/legal" + slug,
+      component: path.resolve(`./src/templates/legal-detail.js`),
+      context: { slug: slug },
+    })
+  })
 }

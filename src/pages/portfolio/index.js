@@ -16,7 +16,8 @@ export default function PortfolioList({ data }) {
                     <div className="uk-container">
                         <div className="uk-flex uk-flex-center">
                             <div className="uk-width-3-4 uk-text-center">
-                                <h2 className="uk-heading-small">Portfolio</h2>
+                                <h2 className="uk-heading-small">Web Design Case Studies</h2>
+                                <p>Our clients are receiving the best support for their business and website. We love moving clients away from WordPress and Wix because we improve their site performance significantly. View case studies from companies across a wide spectrum of industries.</p>
                                 <div>
 
                                 </div>
@@ -35,7 +36,7 @@ export default function PortfolioList({ data }) {
                                         <Link to={"/portfolio" + node.fields.slug} className="uk-link-reset">
                                             <div className="uk-cover-container">
                                                 <canvas height="300"></canvas>
-                                                <img src={node.frontmatter.featured_image} alt="" data-uk-cover />
+                                                <img src={node.frontmatter.featured_image} alt={node.frontmatter.image_alt_tag} data-uk-cover />
                                             </div>
                                             <h2 className="uk-h5 uk-text-center">{node.frontmatter.title}</h2>
                                         </Link>
@@ -57,6 +58,7 @@ query {
         frontmatter {
           title
           featured_image
+          image_alt_tag
         }
         fields {
           slug

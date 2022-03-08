@@ -93,10 +93,9 @@ export default function Footer({data}) {
                         </div>
                         <div className="uk-width-1-2@s">
                             <ul className="uk-nav uk-nav-default uk-text-right">
-                                <li className="uk-display-inline-block uk-margin-small-right"><Link to="">Facebook</Link></li>
-                                <li className="uk-display-inline-block uk-margin-small-right"><Link to="">Instagram</Link></li>
-                                <li className="uk-display-inline-block uk-margin-small-right"><Link to="">Twitter</Link></li>
-                                <li className="uk-display-inline-block uk-margin-small-right"><Link to="">Linkedin</Link></li>
+                                <li className="uk-display-inline-block uk-margin-small-right"><a href="https://www.facebook.com/HungryRam/" target="_blank" rel="noopener">Facebook</a></li>
+                                <li className="uk-display-inline-block uk-margin-small-right"><a href="https://www.instagram.com/ramdettmer/" target="_blank" rel="noopener">Instagram</a></li>
+                                <li className="uk-display-inline-block uk-margin-small-right"><a href="https://www.yelp.com/biz/hungry-ram-yorba-linda" target="_blank" rel="noopener">Yelp</a></li>
                             </ul>
                         </div>
                     </div>

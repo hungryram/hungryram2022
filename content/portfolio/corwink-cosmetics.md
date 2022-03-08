@@ -1,10 +1,12 @@
 ---
 client_name: Corinne R.
 date: "2020-08-03T07:00:00Z"
+speed: "97"
+performance: "98"
+seo: "90"
+introduction: Corwink Cosmetics is a beauty e-commerce shop by Corinne. The website was built using HUGO as the web framework and Snipcart to connect the shopping cart feature. By leveraging the power of HUGO and Snipcart, this e-commerce site outperforms majority of Shopify websites.
 featured_image: https://res.cloudinary.com/hungryram19/image/upload/v1628099263/hungryram/corwinkcosmetics_dvuvjt.jpg
 image_alt_tag: ""
-meta_description: "View CorWink case study - a ecommerce cosmetic shop"
-title_tag: CorWink Cosmetics Case Study
 projects:
 - Ecommerce
 review: A great rate for such professional quality. Already made two websites through
@@ -12,6 +14,9 @@ review: A great rate for such professional quality. Already made two websites th
 short_description: ""
 title: Corwink Cosmetics
 website_link: https://www.corwinkcosmetics.com/
+search_engine_optimization:
+  meta_description: "View CorWink case study - a ecommerce cosmetic shop"
+  title_tag: CorWink Cosmetics Case Study
 ---
 ### Overview
 

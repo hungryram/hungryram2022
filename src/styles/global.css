@@ -22,6 +22,10 @@ body {
     padding-left: 10px;
 }
 
+.uk-sticky.uk-navbar-sticky.uk-sticky-below.uk-sticky-fixed {
+    background: white;
+}
+
 footer ul.uk-nav li a,
 footer ul li p {
     color: #bac0c3;

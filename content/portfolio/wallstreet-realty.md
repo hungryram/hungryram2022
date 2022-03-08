@@ -1,9 +1,12 @@
 ---
 client_name: John Pagani
 date: "2021-10-04T07:00:00Z"
+speed: "97"
+performance: "92"
+seo: "100"
+introduction: 
 featured_image: https://res.cloudinary.com/hungryram19/image/upload/v1633708714/hungryram/wallstreet-realty-website-design_vbxzck.jpg
 image_alt_tag: Wallstreet Realty
-meta_description: Our case study for Wallstreet Realty. A real estate brokerage in
   Southern California. Contact us at ram@hungryram.com for more information.
 projects:
 - Real Estate
@@ -13,8 +16,10 @@ review: |-
   THANK YOU SO MUCH!!!
 short_description: ""
 title: Wallstreet Realty
-title_tag: Case Study for Wallstreet Realty - Hungry Ram Web Design
 website_link: https://www.wallstrealty.com/
+search_engine_optimization:
+  meta_description: Our case study for Wallstreet Realty. A real estate brokerage in
+  title_tag: Case Study for Wallstreet Realty - Hungry Ram Web Design
 ---
 ## Meet the Client
 

@@ -2,14 +2,19 @@ import * as React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout"
 import Seo from "../components/Seo";
+import Heading from "../components/blocks/heading";
 
 export default function Faq({ data }) {
     const faq = data.faq.frontmatter
     return (
         <Layout>
             <Seo
-                title={data.faq.frontmatter.title_tag}
-                description={data.faq.frontmatter.meta_description}
+                title={faq.search_engine_optimization.title_tag}
+                description={faq.search_engine_optimization.meta_description}
+            />
+            <Heading
+                heading="Frequently Asked Questions"
+                body="Have any questions about our services? You may find an answer in our FAQ. If not, please send us a message."
             />
             <div className="uk-section">
                 <div className="uk-container uk-container-small">

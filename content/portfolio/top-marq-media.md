@@ -1,18 +1,23 @@
 ---
 client_name: Marqos Maldonado
 date: "2021-07-16T07:00:00Z"
+speed: "95"
+performance: "100"
+seo: "100"
+introduction: 
 featured_image: https://res.cloudinary.com/hungryram19/image/upload/v1631943799/hungryram/top-marq-media_zwurqj.jpg
 image_alt_tag: Top Marq Media Web Design
-meta_description: Top Marq Media is a full-service content creation agency. Find out
-  how we were able to improve their website by moving away from Wix.
 projects:
 - Small Business
 review: Ram created an amazing website for my filmmaking/photography page. Easy for
   my clients to navigate and looks very professional! 5 stars all around!
 short_description: ""
 title: Top Marq Media
-title_tag: Top Marq Media Case Study - Hungry Ram Web Design
 website_link: https://www.topmarqmedia.com/
+search_engine_optimization:
+  meta_description: Top Marq Media is a full-service content creation agency. Find out how we were able to improve their website by moving away from Wix.
+  title_tag: Top Marq Media Case Study - Hungry Ram Web Design
+
 ---
 ## Project Overview
 

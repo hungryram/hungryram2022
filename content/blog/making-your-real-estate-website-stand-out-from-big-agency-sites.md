@@ -1,6 +1,6 @@
 ---
 categories:
-- Web design
+- Web Design
 date: "2020-11-13T08:00:00Z"
 disable_banner: true
 featured_image: https://res.cloudinary.com/hungryram19/image/upload/v1605336010/hungryram/idx_qpqe5l.png

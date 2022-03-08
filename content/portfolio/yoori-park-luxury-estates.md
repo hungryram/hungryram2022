@@ -4,6 +4,10 @@ approach: Yoori was looking for a website developer to manage her website. She h
   We've built the site off of Wordpress without IDX integration. The website will
   soon be migrated over to a fully static website for optimal speed and security.
 client_name: Yoori Park
+speed: "100"
+performance: "100"
+seo: "100"
+introduction: 
 date: "2019-10-17T07:00:00Z"
 date_completed: "2020-05-01T07:00:00.000+00:00"
 description: Yoori Park is a Los Angeles Realtor focusing on luxury homes. She's featured
@@ -14,9 +18,6 @@ gallery:
 - /uploads/yooriparkagent.png
 - /uploads/unnamed.jpg
 image_alt_tag: Luxury Real Estate Web Design
-meta_description: Yoori Park is based in Los Angeles and had a website redesign by
-  Hungry Ram. The site is built using HUGO and Forestry.io for content management.
-title_tag: Yoori Park Luxury Real Estate Web design by Hungry Ram
 portfolio:
 - Real Estate
 projects:
@@ -26,6 +27,9 @@ review: Ram is so efficient with my website. I'm so happy to be working with him
   website without having me ask.
 title: Yoori Park Luxury Estates
 website_link: https://www.yooripark.com
+search_engine_optimization:
+  meta_description: Yoori Park is based in Los Angeles and had a website redesign by Hungry Ram. The site is built using HUGO and Forestry.io for content management.
+  title_tag: Yoori Park Luxury Real Estate Web design by Hungry Ram
 ---
 Yoori Park is featured on HGTV on Rock the Block. With over 18 years of training and experience in both sales and customer service, she is not only results-oriented but also deeply values building rapport with each and every one of her clients.
 

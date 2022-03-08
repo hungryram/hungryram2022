@@ -1,11 +1,12 @@
 ---
 client_name: Carly Kalbrunner
 date: "2020-08-20T07:00:00Z"
+speed: "92"
+performance: "99"
+seo: "83"
+introduction: Beauty Hydration was built using HUGO to quickly put together a website that would meet SEO standards within a short deadline. Shelley Lashley is the owner of Beauty Hydration and wanted a website that would stand out not only for visitors, but for Google.
 featured_image: https://res.cloudinary.com/hungryram19/image/upload/v1631942389/hungryram/ck-designs.jpg
 image_alt_tag: Modern interior design website
-meta_description: Website designed for an interior designer in Georgia by Hungry Ram.
-  The website was custom designed with an architectural themed design.
-title_tag: CK Designs Kitchen and Bath Website Design by Hungry Ram
 projects:
 - Small Business
 review: Ram helped me save money from my previous designer and still kept up with
@@ -14,6 +15,9 @@ review: Ram helped me save money from my previous designer and still kept up wit
 short_description: ""
 title: CK Kitchens and Designs
 website_link: https://www.ckdesignskandb.com/
+search_engine_optimization:
+  title_tag: CK Designs Kitchen and Bath Website Design by Hungry Ram
+  meta_description: Website designed for an interior designer in Georgia by Hungry Ram. The website was custom designed with an architectural themed design.
 ---
 ### Overview
 

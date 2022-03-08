@@ -1,17 +1,21 @@
 ---
 client_name: SERHANT.
 date: "2022-01-04T08:00:00Z"
+speed: "100"
+performance: "100"
+seo: "100"
+introduction: 
 featured_image: https://res.cloudinary.com/hungryram19/image/upload/v1641598013/hungryram/the-westly-serhant_yqk1bm.jpg
 image_alt_tag: The Westly web design
-meta_description: Learn how Hungry Ram received the opportunity to build a website
-  for a luxury condominium with the team at SERHANT.
 projects:
 - Real Estate
 review: We loved working with you !! Looking forward to many more
 short_description: ""
 title: The Westly
-title_tag: The Westly Web Design Case Study | Hungry Ram Web Design
 website_link: https://www.the-westly.com
+search_engine_optimization:
+  meta_description: Learn how Hungry Ram received the opportunity to build a website for a luxury condominium with the team at SERHANT.
+  title_tag: The Westly Web Design Case Study | Hungry Ram Web Design
 ---
 ## Summary
 

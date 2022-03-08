@@ -1,17 +1,22 @@
 ---
 client_name: Monica Sanchez
 date: "2021-09-12T07:00:00Z"
+speed: "94"
+performance: "94"
+seo: "100"
+introduction: KA Intimacy is owned by H-Bling Wellness - a cryotherapy center located in Brea, California. KA Intimacy provides CBD products that helps with sexual wellness and promote safe sex.
 featured_image: https://res.cloudinary.com/hungryram19/image/upload/v1639591025/hungryram/Untitled-4_gldreg.jpg
 image_alt_tag: KA Intimacy web design
-meta_description: "Find out how we built KA Intimacy using Shopify"
-title_tag: KA Intimacy Case Study
 projects:
 - Small Business
 review: 
 short_description: ""
 title: KA Intimacy
-
 website_link: https://ka-intimacy.com
+search_engine_optimization:
+    meta_description: "Find out how we built KA Intimacy using Shopify"
+    title_tag: KA Intimacy Case Study
+
 ---
 ## Project Overview
 

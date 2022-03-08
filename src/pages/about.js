@@ -1,4 +1,5 @@
 import * as React from "react"
+import Heading from "../components/blocks/heading"
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
 
@@ -9,19 +10,10 @@ export default function About() {
         title="About Us - Hungry Ram Web Design"
         description="Located in Orange County, CA. Learn how we provide the most unique websites for businesses across the country."
       />
-      <div className="uk-section">
-        <div className="uk-container">
-          <div className="uk-flex uk-flex-center">
-            <div className="uk-width-3-4 uk-text-center">
-              <h2 className="uk-heading-small">About Hungry Ram</h2>
-              <div>
-                <p>Hungry Ram Web Design is a small studio founded by Ram Dettmer located in Yorba Linda, CA. We are a team of web designers and graphic designers with a passion for anything tech. There is never a day where we never stop learning and this has helped us stand out from larger agencies.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <Heading
+        heading="About Hungry Ram Web Design"
+        body="Hungry Ram Web Design is a small studio founded by Ram Dettmer located in Yorba Linda, CA. We are a team of web designers and graphic designers with a passion for anything tech. There is never a day where we never stop learning and this has helped us stand out from larger agencies."
+        />
       <div className="uk-section uk-section-small">
         <div className="uk-container">
           <img src="https://images.prismic.io/prismic-website/85c1fa1cb2c31a296e6057c323d4eaf6ccd57634_ff746e81044f75301405146dc28c4b3213cd21a0_about.png?auto=compress,format" alt="" />

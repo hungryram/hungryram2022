@@ -1,0 +1,107 @@
+[context.production.environment]
+  HUGO_VERSION = "0.88.1"
+
+############### REGULAR PAGES REDIRECT ###############
+
+[[redirects]]
+force = true
+from = "/free-site-setup/*"
+status = 301
+to = "/contact"
+
+[[redirects]]
+force = true
+from = "/real-estate-websites/"
+status = 301
+to = "/agent-idx-websites"
+
+############### CASE STUDIES REDIRECT ###############
+
+[[redirects]]
+force = true
+from = "/customers/*"
+status = 301
+to = "/portfolio"
+
+
+[[redirects]]
+force = true
+from = "/portfolio/karina-crisp-summit-realty/"
+status = 301
+to = "/portfolio/karina-crisp/"
+
+[[redirects]]
+force = true
+from = "/portfolio/oc-generators/"
+status = 301
+to = "/portfolio/"
+
+[[redirects]]
+force = true
+from = "/projects/*"
+status = 301
+to = "/portfolio"
+
+[[redirects]]
+force = true
+from = "/customers/yoori-park-luxury-estates/"
+status = 301
+to = "/portfolio/yoori-park-luxury-estates/"
+
+############### SERVICES REDIRECT ###############
+
+[[redirects]]
+force = true
+from = "/ecommerce-website-design/"
+status = 301
+to = "/services/ecommerce-website-design/"
+
+[[redirects]]
+force = true
+from = "/agent-idx-websites/"
+status = 301
+to = "/services/agent-idx-websites/"
+
+[[redirects]]
+force = true
+from = "/broker-idx-websites"
+status = 301
+to = "/services/broker-idx-websites/"
+
+[[redirects]]
+force = true
+from = "/real-estate-agent-websites"
+status = 301
+to = "/services/real-estate-agent-websites/"
+
+[[redirects]]
+force = true
+from = "/real-estate-broker-websites/"
+status = 301
+to = "/services/real-estate-broker-websites/"
+
+[[redirects]]
+force = true
+from = "/custom-website-design"
+status = 301
+to = "/services/custom-website-design/"
+
+[[redirects]]
+force = true
+from = "/pricing/"
+status = 301
+to = "/faq"
+
+[[redirects]]
+force = true
+from = "/jamstack-website-design/"
+status = 301
+to = "/custom-website-design"
+
+############### BLOG REDIRECT ###############
+
+[[redirects]]
+force = true
+from = "/blog/my-blog/"
+status = 301
+to = "/blog/moving-away-from-wordpress"

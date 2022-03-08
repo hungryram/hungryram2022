@@ -2,6 +2,9 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/Layout"
 import * as Styles from "../styles/blog.module.css"
+import Seo from "../components/Seo"
+import Heading from "../components/blocks/heading"
+import Blogcard from "../components/blocks/blogcard"
 
 export default class BlogList extends React.Component {
   render() {
@@ -9,37 +12,25 @@ export default class BlogList extends React.Component {
     const posts = this.props.data.allMarkdownRemark.edges
     return (
       <Layout>
-                <div className="uk-section">
-            <div className="uk-container">
-                <div className="uk-flex uk-flex-center">
-                    <div className="uk-width-3-4 uk-text-center">
-                        <h2 className="uk-heading-small">Our Blog</h2>
-                        <div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <Seo
+          title="The Blog | Hungry Ram Web Design"
+          description="Read up on our blog about why we build the best websites"
+        />
+        <Heading
+          heading="Our Blog"
+          body="View various blog posts about websites and SEO."
+        />
         <div className="uk-section">
           <div className="uk-container">
             <div className="uk-child-width-1-2@s uk-grid-small" data-uk-grid>
               {posts.map(({ node }) => {
                 return (
-                  <div>
-                    <Link to={"/blog" + node.fields.slug} className="uk-link-reset">
-                      <div className={`uk-card ${Styles.articleCard}`}>
-                        <div className="uk-card-media-top uk-cover-container">
-                          <canvas height="400"></canvas>
-                          <img src={node.frontmatter.featured_image} alt="" data-uk-cover />
-                        </div>
-                        <div className="uk-card-body">
-                          <h2 className="uk-h4">{node.frontmatter.title}</h2>
-                          <p>{node.exerpt}</p>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
+                  <Blogcard 
+                    url={"/blog" + node.fields.slug}
+                    image={node.frontmatter.featured_image}
+                    title={node.frontmatter.title}
+                    excerpt={node.excerpt}
+                  />
                 )
               })}
             </div>

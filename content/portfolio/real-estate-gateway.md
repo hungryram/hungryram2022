@@ -1,10 +1,12 @@
 ---
 client_name: Andrea Ellery
 date: "2020-07-10T07:00:00Z"
+speed: "90"
+performance: "100"
+seo: "100"
+introduction: Real Estate Gateway is a brokerage located in California. With the help from our team, we were able to increase website performance even with integration of IDX.
 featured_image: https://res.cloudinary.com/hungryram19/image/upload/v1628098587/hungryram/real-estate-gateway-house_i0pf84.jpg
 image_alt_tag: Real Estate Web Design in California
-meta_description: "Find out how we built the website for a brokerage integrated with IDX"
-title_tag: Real Estate Gateway Case Study | Hungry Ram Web Design
 projects:
 - Real Estate
 review: I would recommend Ram. The site was built super fast and he was updating my
@@ -12,6 +14,9 @@ review: I would recommend Ram. The site was built super fast and he was updating
 short_description: ""
 title: Real Estate Gateway
 website_link: https://www.realestategateway.house/
+search_engine_optimization:
+  meta_description: "Find out how we built the website for a brokerage integrated with IDX"
+  title_tag: Real Estate Gateway Case Study | Hungry Ram Web Design
 ---
 ### Overview
 
