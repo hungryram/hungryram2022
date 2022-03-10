@@ -12,3 +12,18 @@
     border-top: 1px solid #e5e5e5;
     list-style: none;
 }
+
+.service-heading {
+    background-image: linear-gradient(to right,#AB52BD 0,#ab38c2 22%,#2183B8 45%,#3e5ec7 50%,#2183B8 55%,#AB52BD 78%,#AB52BD 100%);
+    color: transparent;
+    font-weight: 700;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.service-subheading {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+}

@@ -3,7 +3,7 @@ import Layout from "../../components/Layout"
 import Seo from "../../components/Seo"
 import { Link, graphql } from "gatsby"
 import * as Styles from "../../styles/servicedetail.module.css"
-import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function ServiceList({ data }) {
     return (
@@ -29,8 +29,17 @@ export default function ServiceList({ data }) {
                 <div className="uk-container">
                     <div className="uk-flex-middle uk-grid-large" data-uk-grid>
                         <div className="uk-width-expand@s">
-                            <img src="https://ghost.org/resources/assets/img/building.jpg" alt="" />
-                        </div>
+                            <div>
+                                <div className="uk-inline">
+                                    <StaticImage
+                                        src="../../images/web-design-services.jpg"
+                                    />
+                                    <div className="uk-overlay uk-position-top">
+                                        <p className={Styles.serviceSubheading}>Custom built websites</p>
+                                        <h2 className={Styles.serviceHeading}>Traditional websites can't compete</h2>
+                                    </div>
+                                </div>
+                            </div>                          </div>
                         <div className="uk-width-3-5@s">
                             <div className="uk-margin-large">
                                 <h2>Web Design Services</h2>
@@ -87,7 +96,17 @@ export default function ServiceList({ data }) {
                 <div className="uk-container">
                     <div className="uk-flex-middle uk-grid-large" data-uk-grid>
                         <div className="uk-width-expand@s">
-                            <img src="https://ghost.org/resources/assets/img/building.jpg" alt="" />
+                            <div>
+                                <div className="uk-inline">
+                                    <StaticImage
+                                        src="../../images/website-essentials.jpg"
+                                    />
+                                    <div className="uk-overlay uk-position-top">
+                                        <p className={Styles.serviceSubheading}>Website essentials</p>
+                                        <h2 className={Styles.serviceHeading}>Reliable services for a successful website</h2>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className="uk-width-3-5@s">
                             <div className="uk-margin-large">

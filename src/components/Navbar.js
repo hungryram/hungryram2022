@@ -54,10 +54,10 @@ export default function Navbar() {
                                         <div className="uk-navbar-dropdown">
                                             <ul className="uk-nav uk-navbar-dropdown-nav">
                                                 <li>
-                                                    <Link to="/about">About Hungry Ram</Link>
+                                                    <Link to="/about/">About Hungry Ram</Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/portfolio">Portfolio</Link>
+                                                    <Link to="/portfolio/">Portfolio</Link>
 
                                                 </li>
                                             </ul>
@@ -83,16 +83,16 @@ export default function Navbar() {
                                         <div className="uk-navbar-dropdown">
                                             <ul className="uk-nav uk-navbar-dropdown-nav">
                                                 <li>
-                                                    <Link to="/blog">Blog</Link>
+                                                    <Link to="/blog/">Blog</Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/faq">FAQ</Link>
+                                                    <Link to="/faq/">FAQ</Link>
 
                                                 </li>
                                             </ul>
                                         </div>
                                     </li>
-                                    <li><Link to="/contact">Contact</Link></li>
+                                    <li><Link to="/contact/">Contact</Link></li>
                                     <div className="uk-navbar-item">
                                         <li><a class="uk-button uk-button-primary" href="https://calendly.com/hungry-ram" rel="noopener" target="_blank">Book a call</a></li>
                                     </div>

@@ -1,3 +1,4 @@
+import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
 import Heading from "../components/blocks/heading"
 import Layout from "../components/Layout"
@@ -14,9 +15,11 @@ export default function About() {
         heading="About Hungry Ram Web Design"
         body="Hungry Ram Web Design is a small studio founded by Ram Dettmer located in Yorba Linda, CA. We are a team of web designers and graphic designers with a passion for anything tech. There is never a day where we never stop learning and this has helped us stand out from larger agencies."
         />
-      <div className="uk-section uk-section-small">
+      <div className="uk-section uk-section-small uk-text-center">
         <div className="uk-container">
-          <img src="https://images.prismic.io/prismic-website/85c1fa1cb2c31a296e6057c323d4eaf6ccd57634_ff746e81044f75301405146dc28c4b3213cd21a0_about.png?auto=compress,format" alt="" />
+          <StaticImage
+            src="../images/team-meeting-web-design.jpg"
+          />
         </div>
       </div>
 
@@ -68,7 +71,6 @@ export default function About() {
                 <div className="uk-card">
                   <h2 className="uk-h4">The best support</h2>
                   <p>Always get support to your website outside office hours. We go above and beyond to take care of our clients.</p>
-
                 </div>
               </div>
               <div>
