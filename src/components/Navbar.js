@@ -164,7 +164,7 @@ export default function Navbar() {
                             <div className="uk-padding-large">
                                 <div className="uk-child-width-1-2@s" data-uk-grid>
                                     <div className="uk-margin-large">
-                                        <img src="https://res.cloudinary.com/hungryram19/image/upload/v1631928088/hungryram/2021-hungry-ram-logo-black_hsw94p.png" alt="Hungry Ram Web Design" width="200" />
+                                        <img src="https://res.cloudinary.com/hungryram19/image/upload/v1631928088/hungryram/2021-hungry-ram-logo-black_hsw94p.png" alt="Hungry Ram Web Design" width="150" />
                                     </div>
                                 </div>
                                 <ul className="uk-nav uk-margin-auto-vertical uk-dark" data-uk-nav>
