@@ -13,7 +13,7 @@ export default function Footer({data}) {
                     </div>
                     <div className="uk-child-width-1-4@m uk-child-width-1-2" data-uk-grid>
                         <div>
-                            <h3 className="uk-h5">Websites</h3>
+                            <h3 className="uk-h5">Contact Information</h3>
                             <ul className="uk-nav uk-nav-default">
                                 {
                                     contact.contact_information.email &&
