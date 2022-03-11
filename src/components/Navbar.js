@@ -29,7 +29,7 @@ export default function Navbar() {
                         <div className="uk-navbar-right uk-visible@s">
                             <ul className="uk-navbar-nav">
                                 <li>
-                                    <a href="tel:(657) 549-5082)" target="_blank" rel="noopener">(657) 549-5082)</a>
+                                    <a href="tel:(657) 549-5082" target="_blank" rel="noopener">(657) 549-5082</a>
                                 </li>
                                 <li>
                                     <a href="mailto:ram@hungryram.com" target="_blank" rel="noopener">ram@hungryram.com</a>
