@@ -65,7 +65,7 @@ export default function Index() {
           <div className="uk-container">
             <div className="uk-flex uk-flex-center">
               <div className="uk-width-3-4@s uk-text-center">
-                <h2 className="uk-heading-small">The best website platform for real estate and small business</h2>
+                <h2 className="uk-heading-small">The best website platform for real estate and small businesses</h2>
                 <div>
                   <p>We help you create, and maintain connections with your customers through our trustworthy websites</p>
                 </div>
