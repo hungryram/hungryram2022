@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { BsChevronDown } from "@react-icons/all-files/bs/BsChevronDown";
 import { BsChevronRight } from "@react-icons/all-files/bs/BsChevronRight";
+import { HiOutlineMenuAlt3 } from "@react-icons/all-files/hi/HiOutlineMenuAlt3";
 import * as Styles from "../styles/navbar.module.css"
 import Logo from "../images/2021-hungry-ram-logo-black.png"
 
@@ -115,7 +116,9 @@ export default function Navbar() {
                         </a>
                     </div>
                     <div className="uk-navbar-right">
-                        <a className="uk-navbar-toggle" data-uk-navbar-toggle-icon data-uk-toggle="target: #modal-full"></a>
+                        <a className={`uk-navbar-toggle ${Styles.mobileIcon}`} data-uk-toggle="target: #modal-full">
+                            <HiOutlineMenuAlt3 />    
+                        </a>
                     </div>
                 </nav>
                 {/* 

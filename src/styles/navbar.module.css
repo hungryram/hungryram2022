@@ -40,3 +40,8 @@ div a.mobile-cta:hover {
 .anchor {
     border-bottom: 1px solid #eee;
 }
+
+.mobile-icon svg {
+    font-size: 25px;
+    color: #000;
+}
