@@ -11,6 +11,7 @@ body {
 .uk-button.uk-button-primary {
     background-color: var(--primary-btn-background);
     border-radius: 5px;
+    padding: 5px 30px;
 }
 
 .link-primary {

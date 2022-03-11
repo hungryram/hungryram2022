@@ -5,3 +5,38 @@
 .navbar-top {
     background-color: #0A2540;
 }
+
+.mobile-cta {
+    font-size: 15px!important;
+    color: #fff!important;
+    font-weight: 500;
+}
+
+div a.mobile-cta:hover {
+    color: #fff;
+}
+
+.uk-offcanvas-bar {
+    background: #fff;
+}
+
+.uk-offcanvas-bar a:not(.uk-nav-sub li) {
+    color: #000;
+    font-size: 20px;
+}
+
+.uk-offcanvas-bar a svg {
+    font-size: 15px;
+}
+
+.uk-offcanvas-bar a:hover {
+    color: #000;
+}
+
+.uk-offcanvas-bar li {
+    padding: 12px 0;
+}
+
+.anchor {
+    border-bottom: 1px solid #eee;
+}
