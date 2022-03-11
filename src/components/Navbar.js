@@ -26,7 +26,7 @@ export default function Navbar() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="uk-navbar-right">
+                        <div className="uk-navbar-right uk-visible@s">
                             <ul className="uk-navbar-nav">
                                 <li>
                                     <a href="tel:(657) 549-5082)" target="_blank" rel="noopener">(657) 549-5082)</a>
@@ -39,7 +39,7 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
-            <div className="uk-visible@m">
+            <div className="uk-visible@m" data-uk-sticky="animation: uk-animation-slide-top-medium; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-dark; cls-inactive:uk-navbar-transparent; top: 400">
                 <nav className="uk-navbar-container uk-navbar-transparent">
                     <div className="uk-container">
                         <div data-uk-navbar>
@@ -168,7 +168,7 @@ export default function Navbar() {
                                     </div>
                                 </div>
                                 <ul className="uk-nav uk-margin-auto-vertical uk-dark" data-uk-nav>
-                                    <li className={`uk-parent ${Styles.anchor}`}><Link to="/">Home</Link></li>
+                                    <li className={Styles.anchor}><Link to="/">Home</Link></li>
                                     <li className={`uk-parent ${Styles.anchor}`}>
                                         <Link to="#">About <BsChevronRight /></Link>
                                         <ul className="uk-nav-sub">
@@ -195,7 +195,7 @@ export default function Navbar() {
                                             <li><Link to="/faq/">FAQ</Link></li>
                                         </ul>
                                     </li>
-                                    <li className={`uk-parent ${Styles.anchor}`}><Link to="/contact">Contact</Link></li>
+                                    <li className={Styles.anchor}><Link to="/contact">Contact</Link></li>
                                 </ul>
                                 <div>
                                 <Link to="/contact" className={`uk-button uk-button-primary uk-width-1-1 ${Styles.mobileCta}`}>Get Started</Link>
