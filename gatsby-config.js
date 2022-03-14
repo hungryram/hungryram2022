@@ -1,8 +1,8 @@
 require("dotenv").config()
 module.exports = {
   siteMetadata: {
-    title: `new`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Web Design for Real Estate and Small Businesses`,
+    siteUrl: `https://www.hungryram.com`
   },
   plugins: [
     "gatsby-plugin-image",

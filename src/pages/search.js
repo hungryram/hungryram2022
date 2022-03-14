@@ -30,7 +30,7 @@ export default function Search() {
                         return (
                             <div key={hit.objectID}>
                                 <Link
-                                    to={"/documentations" + hit.slug}
+                                    to={"/documentation" + hit.slug}
                                 >
                                     <h4 css={{ marginBottom: 0 }}>
                                         <Highlight attribute="title" hit={hit} tagName="strong" />
