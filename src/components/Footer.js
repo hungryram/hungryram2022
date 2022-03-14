@@ -11,7 +11,10 @@ export default function Footer({data}) {
                     <div className="uk-margin-large uk-light">
                         <h2>Perfect partner for success</h2>
                     </div>
-                    <div className="uk-child-width-1-4@m uk-child-width-1-2" data-uk-grid>
+                    <div className="uk-child-width-1-5@m uk-child-width-1-2 uk-grid-small" data-uk-grid>
+                        <div>
+                        <a href="https://www.expertise.com/ca/anaheim/web-developers" /> <img width="200" height="160" src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_anaheim_web-developers_2022_inverse.svg" alt="Top Web Developer in Anaheim" />
+                        </div>
                         <div>
                             <h3 className="uk-h5">Contact Information</h3>
                             <ul className="uk-nav uk-nav-default">
@@ -92,7 +95,7 @@ export default function Footer({data}) {
                             </ul>
                         </div>
                         <div className="uk-width-1-2@s">
-                            <ul className="uk-nav uk-nav-default uk-text-right">
+                            <ul className="uk-nav uk-nav-default uk-text-right@s">
                                 <li className="uk-display-inline-block uk-margin-small-right"><a href="https://www.facebook.com/HungryRam/" target="_blank" rel="noopener">Facebook</a></li>
                                 <li className="uk-display-inline-block uk-margin-small-right"><a href="https://www.instagram.com/ramdettmer/" target="_blank" rel="noopener">Instagram</a></li>
                                 <li className="uk-display-inline-block uk-margin-small-right"><a href="https://www.yelp.com/biz/hungry-ram-yorba-linda" target="_blank" rel="noopener">Yelp</a></li>
@@ -107,10 +110,10 @@ export default function Footer({data}) {
                             <Link to="/legal/accessibility">Accessibility</Link>
                         </li>
                         <li className="uk-display-inline-block uk-margin-small-right">
-                            <Link to="/legal/privacy-policy/">Terms and Conditions</Link>
+                            <Link to="/legal/privacy-policy/">Privacy Policy</Link>
                         </li>
                         <li className="uk-display-inline-block uk-margin-small-right">
-                            <Link to="/legal/terms-and-conditions/">Privacy Policy</Link>
+                            <Link to="/legal/terms-and-conditions/">Terms & Conditions</Link>
                         </li>
                     </ul>
                     </small></p>
