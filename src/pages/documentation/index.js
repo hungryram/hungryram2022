@@ -34,6 +34,7 @@ export default function Docs({ data }) {
                             </div>
                         </div>
                         <div className="uk-width-expand@s">
+                            <h2 className="uk-h4">List of articles</h2>
                             <ul className="uk-list uk-list-divider">
                                 {data.allMarkdownRemark.nodes.map((node) => {
                                     return (

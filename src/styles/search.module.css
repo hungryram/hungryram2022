@@ -1,0 +1,31 @@
+.result-card {
+    background: #F5F5FA;
+    padding: 20px;
+    transition: .3s;
+    margin-top: 10px;
+}
+
+.result-card:hover {
+    background: var(--primary-btn-background);
+    color: #fff;
+    transition: .3s;
+}
+
+.result-card:hover span {
+    transition: .3s;
+    color: #fff;
+}
+
+.result-card span {
+    transition: .3s;
+    color: #000;
+}
+
+.result-card a:hover {
+    transition: .3s;
+    text-decoration: none;
+}
+
+.search-box {
+    margin-bottom: 50px;
+}

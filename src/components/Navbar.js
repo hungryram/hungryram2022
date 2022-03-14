@@ -197,6 +197,7 @@ export default function Navbar() {
                                         <ul className="uk-nav-sub">
                                             <li><Link to="/blog/">Blog</Link></li>
                                             <li><Link to="/faq/">FAQ</Link></li>
+                                            <li><Link to="/documentation/">Documentation</Link></li>
                                         </ul>
                                     </li>
                                     <li className={Styles.anchor}><Link to="/contact">Contact</Link></li>

@@ -11,7 +11,7 @@ export default function PortfolioList({ data }) {
                 title="Web Design Portfolio | Hungry Ram Web Design"
                 description="View our customers who trust us to build their site and establish a long term relationship"
             />
-            <div className="uk-margin-large">
+            <div>
                 <div className="uk-section">
                     <div className="uk-container">
                         <div className="uk-flex uk-flex-center">

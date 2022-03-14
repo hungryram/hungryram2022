@@ -73,7 +73,7 @@ export default function Footer({data}) {
                             </ul>
                         </div>
                         <div>
-                            <h3 className="uk-h5">Websites</h3>
+                            <h3 className="uk-h5">About Us</h3>
                             <ul className="uk-nav uk-nav-default">
                                 <li>
                                     <p>Providing the best cutting-edge technology and tools to deliver you high-quality websites. Always aiming to provide the highest level of service. Need help growing your business? Let's connect with a web developer.</p>

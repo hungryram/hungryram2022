@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import Seo from '../components/Seo'
 import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch, SearchBox, connectHits, Highlight } from 'react-instantsearch-dom';
+import * as Styles from "../styles/search.module.css"
 
 export default function Search() {
     const searchDocs = algoliasearch(
@@ -13,19 +14,10 @@ export default function Search() {
 
 
     const Hits = connectHits(({ hits }) => (
-        <div>
-            {/* Always use a ternary when coercing an array length */}
-            {/* otherwise you might print out "0" to your UI */}
+        <div className={Styles.resultCard}>
             {hits.length ? (
                 <>
-                    {/* I wanted to give a little explanation of the search here */}
-                    <div>
-                        These are the results of your search. The title and excerpt are
-                        displayed, though your search may have been found in the content of
-                        the post as well.
-                    </div>
 
-                    {/* Here is the crux of the component */}
                     {hits.map(hit => {
                         return (
                             <div key={hit.objectID}>
@@ -44,10 +36,10 @@ export default function Search() {
                                             />
                                         </h5>
                                     ) : null}
-                                </Link>
                                 <div>
                                     <Highlight attribute="excerpt" hit={hit} tagName="strong" />
                                 </div>
+                                </Link>
                             </div>
                         )
                     })}
@@ -61,19 +53,21 @@ export default function Search() {
     return (
         <Layout>
             <Seo
-                title="Documentation"
-                description="Learn about our websites"
+                title="Search Documentation | Hungry Ram Web Design"
+                description="Search our documentation on customizing your website content and appearance."
             />
             <div className="uk-section">
-                <div className="uk-container">
+                <div className="uk-container uk-container-small">
                     <div>
                         <div className="uk-width-expand@s">
-                            <h2>Search</h2>
+                            <h2>How can we help?</h2>
+                            <p>This search box searches our documentation for customizing our websites. We currently do not provide sitewide searches but we plan on it soon!</p>
                             <InstantSearch
                                 indexName="Documentation"
                                 searchClient={searchDocs}
                             >
-                                <SearchBox />
+                                <SearchBox className={Styles.searchBox}/>
+                                <h2>Result</h2>
                                 <Hits />
                             </InstantSearch>
 
