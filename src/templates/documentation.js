@@ -3,7 +3,6 @@ import { Link } from 'gatsby';
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
 import { graphql } from 'gatsby';
-import Documentationsidebar from '../components/documentation-sidebar';
 
 export default function documentation({ data }) {
 const content = data.markdownRemark.frontmatter

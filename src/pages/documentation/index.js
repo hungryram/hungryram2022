@@ -2,7 +2,6 @@ import * as React from "react"
 import Layout from "../../components/Layout"
 import Seo from "../../components/Seo"
 import { graphql, Link } from "gatsby"
-import Documentationsidebar from "../../components/documentation-sidebar"
 
 export default function Docs({ data }) {
     return (
