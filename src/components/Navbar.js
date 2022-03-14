@@ -41,7 +41,7 @@ export default function Navbar() {
             </div>
             <div className="uk-visible@m" data-uk-sticky="animation: uk-animation-slide-top-medium; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-dark; cls-inactive:uk-navbar-transparent; top: 400">
                 <nav className="uk-navbar-container uk-navbar-transparent">
-                    <div className="uk-container">
+                    <div className="uk-container" style={{ borderBottom: "1px solid #eee" }}>
                         <div data-uk-navbar>
                             <div className="uk-navbar-left">
                                 <Link to="/">
@@ -89,6 +89,10 @@ export default function Navbar() {
                                                 </li>
                                                 <li>
                                                     <Link to="/faq/">FAQ</Link>
+
+                                                </li>
+                                                <li>
+                                                    <Link to="/documentation/">Documentation</Link>
 
                                                 </li>
                                             </ul>

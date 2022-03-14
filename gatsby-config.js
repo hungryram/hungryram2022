@@ -1,3 +1,4 @@
+require("dotenv").config()
 module.exports = {
   siteMetadata: {
     title: `new`,
@@ -11,6 +12,14 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-netlify",
+    {
+      resolve: "gatsby-plugin-algolia",
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries: require("./src/utils/algolia-queries")
+      }
+    },
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
@@ -73,6 +82,13 @@ module.exports = {
       options: {
         "name": "page",
         "path": `${__dirname}/content/pages/`
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        "name": "docs",
+        "path": `${__dirname}/content/documentation/`
       },
     },
   ]

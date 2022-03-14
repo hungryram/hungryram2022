@@ -2,14 +2,16 @@ import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
 import Logos from "../components/blocks/logos"
 import PrimaryButton from "../components/blocks/primarybutton"
-import PrimaryLink from "../components/blocks/primarylink"
 import Layout from "../components/Layout"
 import { Link } from "gatsby"
 import * as Styles from "../styles/home.module.css"
 import EricaJ from "../images/erica-jackson.jpg"
 import Seo from "../components/Seo"
 
+
 export default function Index() {
+
+
   const schemaMarkup =
   {
     "@context": "http://schema.org",
@@ -21,36 +23,36 @@ export default function Index() {
     "logo": "https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg",
     "description": "Orange County web design for real estate professionals and small businesses.",
     "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 33.87521697227549,
-        "longitude": -117.74577287142314
+      "@type": "GeoCoordinates",
+      "latitude": 33.87521697227549,
+      "longitude": -117.74577287142314
     },
     "url": "https://www.hungryram.com",
     "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "657-549-5082",
-        "contactType": "customer service",
-        "email": "ram@hunryram.com",
-        "contactOption": "",
-        "areaServed": {
-            "@type": "GeoCircle",
-            "geoMidpoint": {
-                "@type": "GeoCoordinates",
-                "latitude": 33.87521697227549,
-                "longitude": -117.74577287142314
-            },
-            "geoRadius": 1000
-        }
+      "@type": "ContactPoint",
+      "telephone": "657-549-5082",
+      "contactType": "customer service",
+      "email": "ram@hunryram.com",
+      "contactOption": "",
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 33.87521697227549,
+          "longitude": -117.74577287142314
+        },
+        "geoRadius": 1000
+      }
     },
     "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "United States",
-        "addressLocality": "Yorba Linda",
-        "addressRegion": "CA",
-        "postalCode": "92887",
-        "streetAddress": "5511 Mirage Street #1007"
+      "@type": "PostalAddress",
+      "addressCountry": "United States",
+      "addressLocality": "Yorba Linda",
+      "addressRegion": "CA",
+      "postalCode": "92887",
+      "streetAddress": "5511 Mirage Street #1007"
     }
-}
+  }
 
   return (
     <Layout>
@@ -91,71 +93,71 @@ export default function Index() {
           </div>
           <div className="uk-child-width-1-2@s" data-uk-grid>
             <div>
-            <p>Hungry Ram delivers a better solution that gives our clients in real estate and small businesses the edge over their competitors. We adopted a new method called Jamstack that provides the fastest and most secure websites. With our efficiently built webites, our clients see an average of 20% increase in conversion rates when they use our website!</p>
+              <p>Hungry Ram delivers a better solution that gives our clients in real estate and small businesses the edge over their competitors. We adopted a new method called Jamstack that provides the fastest and most secure websites. With our efficiently built webites, our clients see an average of 20% increase in conversion rates when they use our website!</p>
 
             </div>
             <div>
-            <p>WordPress is the most used website builder in the world for real estate and small businesses. This means that all of your competitors are using it too, and that's a problem when you want to stand out.</p>
+              <p>WordPress is the most used website builder in the world for real estate and small businesses. This means that all of your competitors are using it too, and that's a problem when you want to stand out.</p>
 
             </div>
           </div>
           <div className="uk-margin-medium-top">
-          <PrimaryButton
-            btnLink="/contact"
-            btnLabel="Get in touch"
-          />
+            <PrimaryButton
+              btnLink="/contact"
+              btnLabel="Get in touch"
+            />
           </div>
         </div>
       </div>
 
       <div className="uk-section uk-section-small" style={{ backgroundColor: "#EDEFF3" }}>
-            <div className="uk-container">
-              <div className="uk-child-width-1-3@s uk-child-width-1-2" data-uk-grid  style={{ marginBottom: "-100px" }}>
-                <div>
-                  <div className={Styles.ukCard}>
-                    <Link to="/portfolio/krave-nutrition-anaheim/">
-                      <img src="https://res.cloudinary.com/hungryram19/image/upload/v1645420582/hungryram/kraveanaheim_igowwj.jpg" alt="Krave Anaheim web design" />
-                    </Link>
-                  </div>
-                </div>
-                <div>
-                  <div className={Styles.ukCard}>
-                    <Link to="/portfolio/univers/">
-                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1645420410/hungryram/univers-serhant_os2gnl.jpg" alt="Univers landing page design" />  
-                    </Link>
-                  </div>
-                </div>
-                <div>
-                  <div className={Styles.ukCard}>
-                    <Link to="/portfolio/the-westly/">
-                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1641598013/hungryram/the-westly-serhant_yqk1bm.jpg" alt="The Westly web design" />  
-                    </Link>
-                  </div>
-                </div>
-                <div>
-                  <div className={Styles.ukCard}>
-                    <Link to="/portfolio/rn-insurance/">
-                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1632030927/hungryram/RN-insurance_cyylok.jpg" alt="Rn Insurance web design" />  
-                    </Link>
-                  </div>
-                </div>
-                <div>
-                  <div className={Styles.ukCard}>
-                    <Link to="/portfolio/karina-crisp-summit-realty/">
-                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1628098039/hungryram/karina-crisp_xlhli4.jpg" alt="Karina Crisp web design" />    
-                    </Link>
-                  </div>
-                </div>
-                <div>
-                  <div className={Styles.ukCard}>
-                    <Link to="/portfolio/pho-ha-plus/">
-                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1631942389/hungryram/pho-ha-plus-diamondbar.jpg" alt="Pho Ha Plus" />    
-                    </Link>
-                  </div>
-                </div>
+        <div className="uk-container">
+          <div className="uk-child-width-1-3@s uk-child-width-1-2" data-uk-grid style={{ marginBottom: "-100px" }}>
+            <div>
+              <div className={Styles.ukCard}>
+                <Link to="/portfolio/krave-nutrition-anaheim/">
+                  <img src="https://res.cloudinary.com/hungryram19/image/upload/v1645420582/hungryram/kraveanaheim_igowwj.jpg" alt="Krave Anaheim web design" />
+                </Link>
+              </div>
+            </div>
+            <div>
+              <div className={Styles.ukCard}>
+                <Link to="/portfolio/univers/">
+                  <img src="https://res.cloudinary.com/hungryram19/image/upload/v1645420410/hungryram/univers-serhant_os2gnl.jpg" alt="Univers landing page design" />
+                </Link>
+              </div>
+            </div>
+            <div>
+              <div className={Styles.ukCard}>
+                <Link to="/portfolio/the-westly/">
+                  <img src="https://res.cloudinary.com/hungryram19/image/upload/v1641598013/hungryram/the-westly-serhant_yqk1bm.jpg" alt="The Westly web design" />
+                </Link>
+              </div>
+            </div>
+            <div>
+              <div className={Styles.ukCard}>
+                <Link to="/portfolio/rn-insurance/">
+                  <img src="https://res.cloudinary.com/hungryram19/image/upload/v1632030927/hungryram/RN-insurance_cyylok.jpg" alt="Rn Insurance web design" />
+                </Link>
+              </div>
+            </div>
+            <div>
+              <div className={Styles.ukCard}>
+                <Link to="/portfolio/karina-crisp-summit-realty/">
+                  <img src="https://res.cloudinary.com/hungryram19/image/upload/v1628098039/hungryram/karina-crisp_xlhli4.jpg" alt="Karina Crisp web design" />
+                </Link>
+              </div>
+            </div>
+            <div>
+              <div className={Styles.ukCard}>
+                <Link to="/portfolio/pho-ha-plus/">
+                  <img src="https://res.cloudinary.com/hungryram19/image/upload/v1631942389/hungryram/pho-ha-plus-diamondbar.jpg" alt="Pho Ha Plus" />
+                </Link>
               </div>
             </div>
           </div>
+        </div>
+      </div>
 
       <div className="uk-section uk-section-large" style={{ backgroundColor: "#0A2540", paddingTop: "150px" }}>
         <div className="uk-container">

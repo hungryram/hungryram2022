@@ -69,6 +69,15 @@ exports.createPages = async function ({ actions, graphql }) {
         }
       }
     }
+    docs: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/documentation/"}}) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+        }
+      }
+    }
     legal: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/legal/"}}) {
       edges {
         node {
@@ -121,6 +130,17 @@ exports.createPages = async function ({ actions, graphql }) {
         numPages,
         currentPage: i + 1,
       },
+    })
+  })
+
+
+  // CREATE PORTFOLIO DETAIL
+  data.docs.edges.forEach(edge => {
+    const slug = edge.node.fields.slug
+    actions.createPage({
+      path: "/documentation" + slug,
+      component: path.resolve(`./src/templates/documentation.js`),
+      context: { slug: slug },
     })
   })
 

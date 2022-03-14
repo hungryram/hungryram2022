@@ -16,7 +16,9 @@
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
+    "algoliasearch": "^4.12.2",
     "gatsby": "^4.8.0",
+    "gatsby-plugin-algolia": "^0.26.0",
     "gatsby-plugin-canonical-urls": "^4.9.0",
     "gatsby-plugin-image": "^2.8.1",
     "gatsby-plugin-netlify": "^4.1.0",
@@ -29,6 +31,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
+    "react-instantsearch-dom": "^6.22.0",
     "showdown": "^2.0.2",
     "uikit": "^3.11.1"
   }
