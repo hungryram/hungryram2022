@@ -26,7 +26,16 @@ const content = data.markdownRemark.frontmatter
       <div className="uk-section">
         <div className="uk-container">
           <div data-uk-grid>
-            <Documentationsidebar />
+          <div className="uk-width-1-4@s">
+            <div>
+                <p>Documentation</p>
+                <div>
+                    <ul className="uk-nav uk-nav-default">
+                        <li><a href="/documentation/overview">Overview</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
             <div className="uk-width-expand@s">
               <h2>{ content.title }</h2>
               <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />

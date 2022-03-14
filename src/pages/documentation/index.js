@@ -24,7 +24,16 @@ export default function Docs({ data }) {
             <div className="uk-section">
                 <div className="uk-container">
                     <div data-uk-grid>
-                        <Documentationsidebar />
+                        <div className="uk-width-1-4@s">
+                            <div>
+                                <p>Documentation</p>
+                                <div>
+                                    <ul className="uk-nav uk-nav-default">
+                                        <li><a href="/documentation/overview">Overview</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                         <div className="uk-width-expand@s">
                             <ul className="uk-list uk-list-divider">
                                 {data.allMarkdownRemark.nodes.map((node) => {
