@@ -13,6 +13,14 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-netlify",
     {
+      resolve: "gatsby-plugin-google-gtag",
+      options: {
+        trackingIds: [
+          "G-4X5X3V34Y3", // Google Analytics / GA
+        ],
+      }
+    },
+    {
       resolve: "gatsby-plugin-algolia",
       options: {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,

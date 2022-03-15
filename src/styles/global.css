@@ -15,6 +15,11 @@ body {
     padding: 5px 30px;
 }
 
+.uk-button.uk-button-secondary {
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
 .link-primary {
     color: var(--primary-link-color);
 }

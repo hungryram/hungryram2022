@@ -204,6 +204,7 @@ export default function Navbar() {
                                 </ul>
                                 <div>
                                 <Link to="/contact" className={`uk-button uk-button-primary uk-width-1-1 ${Styles.mobileCta}`}>Get Started</Link>
+                                <a href="https://calendly.com/hungry-ram" target="_blank" className={`uk-button uk-button-secondary uk-width-1-1 uk-margin-small-top ${Styles.mobileCta}`}>Book a Call</a>
                                 </div>
                             </div>
                         </div>
