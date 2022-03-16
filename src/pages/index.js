@@ -69,7 +69,7 @@ export default function Index() {
               <div className="uk-width-3-4@s uk-text-center">
                 <h2 className="uk-heading-small">We build <span className="gradient-heading">high-performance websites</span> that convert</h2>
                 <div>
-                  <p>Hungry Ram is an award-winning web design and development studio. Work with the best team to deliver effective websites that convert.</p>
+                  <p>Hungry Ram is an award-winning web design and development studio. Work with the best web design team to deliver effective websites that convert.</p>
                 </div>
                 <Link to="/contact" className="uk-button uk-button-primary uk-margin-small-right">Contact</Link>
                 <a href="https://calendly.com/hungry-ram" target="_blank" className="uk-button uk-button-secondary uk-margin-small-left">Book a call</a>
@@ -90,7 +90,7 @@ export default function Index() {
       <div className="uk-section uk-section-large" style={{ backgroundColor: "#EDEFF3", paddingBottom: "50px" }}>
         <div className="uk-container">
           <div className="uk-width-xlarge">
-            <h2>We specialize in <span className="gradient-heading">real estate </span>and <span className="gradient-heading">small business</span> websites</h2>
+            <h2>We specialize in <span className="gradient-heading">real estate </span>and <span className="gradient-heading">small business</span> web design</h2>
           </div>
           <div className="uk-child-width-1-2@s" data-uk-grid>
             <div>
@@ -199,7 +199,7 @@ export default function Index() {
         <div className="uk-container">
           <div className="uk-margin-large uk-width-xlarge">
             <h2>Don't be left behind: <span className="gradient-heading">future-proof</span> your website</h2>
-            <p>Future proofing your website means making sure it can be used in years to come, not just the next few years. We take care of all the future-facing features on our sites like responsive design and user interface updates so that you don't need to worry about them in the future when digital marketing becomes even more competitive.</p>
+            <p>Future proofing your website means making sure it can be used in years to come, not just the next few years. We take care of all the future-facing features on our sites like responsive web design and user-interface updates so that you don't need to worry about them in the future when technology changes.</p>
             <PrimaryButton
               btnLabel="Get Started"
               btnLink="/contact"
@@ -299,7 +299,7 @@ export default function Index() {
           <div className="uk-child-width-1-2@s uk-flex-middle uk-grid-large" data-uk-grid>
             <div>
               <h2>How we help companies like <span className="serhant uk-text-bold">SERHANT.</span></h2>
-              <p>Big companies like Microsoft, Shopify, and Nike are becoming involved in modern development like Jamstack. Jamstack delivers incredible user-experience and powerful ways to outrank your competitors.</p>
+              <p>We're happy to have Serhant as our partner for web design! Using modern development like Jamstack provides powerful ways to outrank your competitors with incredible user-experience and it's only getting more popular as big companies like Microsoft, Nike, and Shopify join its ranks!</p>
               <div className="uk-margin-medium-top uk-width-large">
                 <p className="uk-text-default">"Hungry Ram is the exceedingly rare combination of value, integrity, adherence to agreed upon timelines, professionalism, and mastery over their craft - all while bringing creativity and a partnership spirit to every interaction and project."</p>
                 <p className="uk-text-default">With the partnership we have forged together, our business has been able to achieve our web development goals better than ever before which is why I recommend working with Ram and his team wholeheartedly."</p>
