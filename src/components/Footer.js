@@ -13,12 +13,6 @@ export default function Footer({ data }) {
                             <div>
                                 <h2>Perfect partner for success</h2>
                             </div>
-                            <div>
-                                <div className="uk-text-right@s">
-                                    <a href="https://www.expertise.com/ca/anaheim/web-developers" /> <img width="190" height="160" src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_anaheim_web-developers_2022_inverse.svg" alt="Top Web Developer in Anaheim" />
-                                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1647290400/hungryram/most-reviewed-agency.png" width="120" alt="" />
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div className="uk-child-width-1-4@m uk-child-width-1-2 uk-grid-small" data-uk-grid>
@@ -97,7 +91,7 @@ export default function Footer({ data }) {
                         <div className="uk-width-1-2@s">
                             <ul className="uk-navbar-nav">
                                 <Link to="/">
-                                    <img src={HrWhiteLogo} alt="" width="200" />
+                                    <img src={HrWhiteLogo} alt="Hungry Ram Web Design" width="200" />
                                 </Link>
 
                             </ul>
@@ -110,7 +104,7 @@ export default function Footer({ data }) {
                             </ul>
                         </div>
                     </div>
-                    <p><small>&copy; Copyright {new Date().getFullYear()} &middot; <Link to="https://www.hungryram.com/" className="uk-link-reset">Hungry Ram LLC</Link></small></p>
+                    <p className="uk-light"><small>&copy; Copyright {new Date().getFullYear()} &middot; <Link to="https://www.hungryram.com/" className="uk-link-reset">Hungry Ram LLC</Link></small></p>
                     <p>
                         <small>
                             <ul className="uk-nav uk-nav-default">

@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <div>
-            <div className={Styles.navbarTop} style={{ backgroundColor: "rgb(34 34 34)" }}>
+            <div className={Styles.navbarTop} style={{ backgroundColor: "rgb(10 37 64)" }}>
                 <div className="uk-container uk-light">
                     <div data-uk-navbar>
                         <div className="uk-navbar-left">

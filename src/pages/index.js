@@ -87,6 +87,24 @@ export default function Index() {
 
       <Logos />
 
+        <div className="uk-container uk-padding uk-position-relative" style={{ background: "#0A2540", borderRadius: "10px", marginBottom: "-50px" }}>
+          <div>
+            <div className="uk-text-center uk-light uk-margin-large">
+              <h2 className="uk-h3">Award-winning web designs</h2>
+            </div>
+            <div className="uk-width-expand uk-flex-center" data-uk-grid>
+              <div>
+                <a href="https://www.expertise.com/ca/anaheim/web-developers" /> <img width="190" height="160" src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_anaheim_web-developers_2022_inverse.svg" alt="Top Web Developer in Anaheim" />
+              </div>
+              <div>
+                <img src="https://res.cloudinary.com/hungryram19/image/upload/v1647290400/hungryram/most-reviewed-agency.png" width="120" alt="" />
+              </div>
+              <div>
+                  <img src="https://upcity-marketplace.s3.amazonaws.com/badge/322/basic_full_color/ce3487ac295db34448302fa1eac6b5ae.png" width="150" alt="TOP WEBSITE DEVELOPER" />
+              </div>
+            </div>
+          </div>
+        </div>
       <div className="uk-section uk-section-large" style={{ backgroundColor: "#EDEFF3", paddingBottom: "50px" }}>
         <div className="uk-container">
           <div className="uk-width-xlarge">
@@ -124,7 +142,7 @@ export default function Index() {
             <div>
               <div className={Styles.ukCard}>
                 <Link to="/portfolio/univers/">
-                  <img src="https://res.cloudinary.com/hungryram19/image/upload/v1645420410/hungryram/univers-serhant_os2gnl.jpg" alt="Univers landing page design" />
+                  <img src="https://res.cloudinary.com/hungryram19/image/upload/v1647469500/hungryram/univers-serhant-landing.jpg" alt="Univers landing page design" />
                 </Link>
               </div>
             </div>
@@ -195,50 +213,38 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="uk-section uk-section-large" style={{ paddingBottom: "0px" }}>
+      <div className="uk-section">
         <div className="uk-container">
-          <div className="uk-margin-large uk-width-xlarge">
-            <h2>Don't be left behind: <span className="gradient-heading">future-proof</span> your website</h2>
-            <p>Future proofing your website means making sure it can be used in years to come, not just the next few years. We take care of all the future-facing features on our sites like responsive web design and user-interface updates so that you don't need to worry about them in the future when technology changes.</p>
-            <PrimaryButton
-              btnLabel="Get Started"
-              btnLink="/contact"
-            />
-          </div>
-          <div className="uk-child-width-1-4@m uk-child-width-1-1@s home-featured" data-uk-grid>
+          <div className="uk-child-width-1-2@s uk-flex-middle uk-grid-large" data-uk-grid>
             <div>
-              <div className="uk-card">
-                <h2 className="uk-h4">Greater scalability</h2>
-                <p>Leverage the power of a CDN, making your websites run faster and handling large amounts of traffic around the globe.</p>
-
+              <h2>How we help companies like <span className="serhant uk-text-bold">SERHANT.</span></h2>
+              <p>We're happy to have Serhant as our partner for web design! Using modern development like Jamstack provides powerful ways to outrank your competitors with incredible user-experience and it's only getting more popular as big companies like Microsoft, Nike, and Shopify join its ranks!</p>
+              <div className="uk-margin-medium-top uk-width-large">
+                <p className="uk-text-default">"Hungry Ram is the exceedingly rare combination of value, integrity, adherence to agreed upon timelines, professionalism, and mastery over their craft - all while bringing creativity and a partnership spirit to every interaction and project."</p>
+                <p className="uk-text-default">With the partnership we have forged together, our business has been able to achieve our web development goals better than ever before which is why I recommend working with Ram and his team wholeheartedly."</p>
+                <div className="uk-grid-small uk-flex-middle" data-uk-grid>
+                  <div className="uk-width-1-4">
+                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1647396623/hungryram/ryan-coyne-serhant-cto.jpg" alt="" className="uk-border-circle" />
+                  </div>
+                  <div className="uk-width-expand">
+                    <p className="uk-text-default uk-text-bold uk-margin-remove">
+                      Ryan Coyne
+                    </p>
+                    <p className="uk-text-default uk-margin-remove">
+                      CTO at <a href="https://serhant.com" className="serhant uk-text-bold" target="_blank">SERHANT.</a>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <div>
-              <div className="uk-card">
-                <h2 className="uk-h4">Unbeatable performance</h2>
-                <p>Waiting for pages to load is a thing of the past. Our websites reduce load time and keep customers from leaving your website.</p>
-
-              </div>
-            </div>
-            <div>
-              <div className="uk-card">
-                <h2 className="uk-h4">Maximum security</h2>
-                <p>We focus on serving static page websites. Meaning no security flaws, hacks, and damages to your website</p>
-
-              </div>
-            </div>
-            <div>
-              <div className="uk-card">
-                <h2 className="uk-h4">Personal Developer</h2>
-                <p>Work with a professional developer that can maintain and improve your website as your business grows.</p>
-
-              </div>
+              <img src="https://res.cloudinary.com/hungryram19/image/upload/v1641598013/hungryram/the-westly-serhant_yqk1bm.jpg" alt="The Westly" style={{ border: "1px solid #ddd" }} />
             </div>
           </div>
         </div>
       </div>
 
-      <div className="uk-section uk-section-large" style={{ paddingBottom: "50px" }}>
+      <div className="uk-section" style={{ paddingBottom: "50px" }}>
         <div className="uk-container" style={{ borderRadius: "10px", backgroundColor: "#0A2540" }}>
           <div className="uk-card-body">
             <div className="uk-flex uk-flex-center uk-margin-large-top">
@@ -296,34 +302,50 @@ export default function Index() {
 
       <div className="uk-section">
         <div className="uk-container">
-          <div className="uk-child-width-1-2@s uk-flex-middle uk-grid-large" data-uk-grid>
+          <div className="uk-margin-large uk-width-xlarge">
+            <h2>Don't be left behind: <span className="gradient-heading">future-proof</span> your website</h2>
+            <p>Future proofing your website means making sure it can be used in years to come, not just the next few years. We take care of all the future-facing features on our sites like responsive web design and user-interface updates so that you don't need to worry about them in the future when technology changes.</p>
+            <PrimaryButton
+              btnLabel="Get Started"
+              btnLink="/contact"
+            />
+          </div>
+          <div className="uk-child-width-1-4@m uk-child-width-1-1@s home-featured" data-uk-grid>
             <div>
-              <h2>How we help companies like <span className="serhant uk-text-bold">SERHANT.</span></h2>
-              <p>We're happy to have Serhant as our partner for web design! Using modern development like Jamstack provides powerful ways to outrank your competitors with incredible user-experience and it's only getting more popular as big companies like Microsoft, Nike, and Shopify join its ranks!</p>
-              <div className="uk-margin-medium-top uk-width-large">
-                <p className="uk-text-default">"Hungry Ram is the exceedingly rare combination of value, integrity, adherence to agreed upon timelines, professionalism, and mastery over their craft - all while bringing creativity and a partnership spirit to every interaction and project."</p>
-                <p className="uk-text-default">With the partnership we have forged together, our business has been able to achieve our web development goals better than ever before which is why I recommend working with Ram and his team wholeheartedly."</p>
-                <div className="uk-grid-small uk-flex-middle" data-uk-grid>
-                  <div className="uk-width-1-4">
-                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1647396623/hungryram/ryan-coyne-serhant-cto.jpg" alt="" className="uk-border-circle" />
-                  </div>
-                  <div className="uk-width-expand">
-                    <p className="uk-text-default uk-text-bold uk-margin-remove">
-                    Ryan Coyne
-                    </p>
-                    <p className="uk-text-default uk-margin-remove">
-                      CTO at <a href="https://serhant.com" className="serhant uk-text-bold" target="_blank">SERHANT.</a>
-                    </p>
-                  </div>
-                </div>
+              <div className="uk-card">
+                <h2 className="uk-h4">Greater scalability</h2>
+                <p>Leverage the power of a CDN, making your websites run faster and handling large amounts of traffic around the globe.</p>
+
               </div>
             </div>
             <div>
-              <img src="https://res.cloudinary.com/hungryram19/image/upload/v1641598013/hungryram/the-westly-serhant_yqk1bm.jpg" alt="The Westly" style={{ border: "1px solid #ddd" }} />
+              <div className="uk-card">
+                <h2 className="uk-h4">Unbeatable performance</h2>
+                <p>Waiting for pages to load is a thing of the past. Our websites reduce load time and keep customers from leaving your website.</p>
+
+              </div>
+            </div>
+            <div>
+              <div className="uk-card">
+                <h2 className="uk-h4">Maximum security</h2>
+                <p>We focus on serving static page websites. Meaning no security flaws, hacks, and damages to your website</p>
+
+              </div>
+            </div>
+            <div>
+              <div className="uk-card">
+                <h2 className="uk-h4">Personal Developer</h2>
+                <p>Work with a professional developer that can maintain and improve your website as your business grows.</p>
+
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+
+
+
 
     </Layout>
   )

@@ -10,7 +10,7 @@ export default function Logos() {
         <div className="uk-section">
             <div className="uk-container uk-container-small">
                 <div className="uk-margin-large uk-text-center">
-                <h2 className="uk-h4">Trusted by Established Names</h2>
+                <h2 className="uk-h3">Trusted by established names</h2>
                 </div>
                 <div className="uk-position-relative uk-text-center" tabindex="-1" data-uk-slider>
 
