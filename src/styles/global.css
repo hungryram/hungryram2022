@@ -13,11 +13,13 @@ body {
 }
 
 .gradient-heading {
-    background-image: linear-gradient(to right,#0b6ae6 0,#0ba8e6 22%,#0b6ae6 45%,#0ba8e6,#0b6ae6 100%);
+    color: var(--primary-accent-color);
+
+    /* background-image: linear-gradient(to right,#0b6ae6 0,#0ba8e6 22%,#0b6ae6 45%,#0ba8e6,#0b6ae6 100%);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    font-weight: 600;
+    font-weight: 600; */
 }
 
 .serhant {
