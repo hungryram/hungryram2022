@@ -67,11 +67,12 @@ export default function Index() {
           <div className="uk-container">
             <div className="uk-flex uk-flex-center">
               <div className="uk-width-3-4@s uk-text-center">
-                <h2 className="uk-heading-small">The best website platform for real estate and small businesses</h2>
+                <h2 className="uk-heading-small">We build <span className="gradient-heading">high-performance websites</span> that convert</h2>
                 <div>
-                  <p>We help you create, and maintain connections with your customers through our trustworthy websites</p>
+                  <p>Hungry Ram is an award-winning web design and development studio. Work with the best team to deliver effective websites that convert.</p>
                 </div>
-                <Link to="/contact" className="uk-button uk-button-primary">Contact</Link>
+                <Link to="/contact" className="uk-button uk-button-primary uk-margin-small-right">Contact</Link>
+                <a href="https://calendly.com/hungry-ram" target="_blank" className="uk-button uk-button-secondary uk-margin-small-left">Book a call</a>
               </div>
             </div>
           </div>
@@ -89,7 +90,7 @@ export default function Index() {
       <div className="uk-section uk-section-large" style={{ backgroundColor: "#EDEFF3", paddingBottom: "50px" }}>
         <div className="uk-container">
           <div className="uk-width-xlarge">
-            <h2>We specialize in real estate and small business websites</h2>
+            <h2>We specialize in <span className="gradient-heading">real estate </span>and <span className="gradient-heading">small business</span> websites</h2>
           </div>
           <div className="uk-child-width-1-2@s" data-uk-grid>
             <div>
@@ -166,7 +167,7 @@ export default function Index() {
               <div className="uk-light">
                 <h2 className="uk-h2">Building websites with optimal performance and security</h2>
                 <p>We know how important it is to have an online presence, but we also know that Wordpress isn’t always the best solution for your business. We want to show business owners that there are better faster and more secure alternatives to WordPress.</p>
-                <p>Hungry Ram uses modern development architecture designed to make your website faster more secure, and flexible to scale</p>
+                <p>Hungry Ram uses modern development architecture designed to make your website faster more secure, and flexible to scale.</p>
               </div>
               <PrimaryButton
                 btnLink="/contact"
@@ -197,7 +198,7 @@ export default function Index() {
       <div className="uk-section uk-section-large" style={{ paddingBottom: "0px" }}>
         <div className="uk-container">
           <div className="uk-margin-large uk-width-xlarge">
-            <h2>Future-proof your website</h2>
+            <h2>Don't be left behind: <span className="gradient-heading">future-proof</span> your website</h2>
             <p>Future proofing your website means making sure it can be used in years to come, not just the next few years. We take care of all the future-facing features on our sites like responsive design and user interface updates so that you don't need to worry about them in the future when digital marketing becomes even more competitive.</p>
             <PrimaryButton
               btnLabel="Get Started"
@@ -297,27 +298,28 @@ export default function Index() {
         <div className="uk-container">
           <div className="uk-child-width-1-2@s uk-flex-middle uk-grid-large" data-uk-grid>
             <div>
-              <h2>A powerful investment for business owners</h2>
+              <h2>How we help companies like <span className="serhant uk-text-bold">SERHANT.</span></h2>
               <p>Big companies like Microsoft, Shopify, and Nike are becoming involved in modern development like Jamstack. Jamstack delivers incredible user-experience and powerful ways to outrank your competitors.</p>
               <div className="uk-margin-medium-top uk-width-large">
-                <p className="uk-text-default">"My experience with Ram was amazing.  He is extremely professional, a great communicator and has been able to bring my vision to life.  Not to mention, my custom website was very affordable and completed very quickly.  I highly recommend Ram to anyone look for a high quality, professional website.  Ram, I can’t thank you enough!"</p>
+                <p className="uk-text-default">"Hungry Ram is the exceedingly rare combination of value, integrity, adherence to agreed upon timelines, professionalism, and mastery over their craft - all while bringing creativity and a partnership spirit to every interaction and project."</p>
+                <p className="uk-text-default">With the partnership we have forged together, our business has been able to achieve our web development goals better than ever before which is why I recommend working with Ram and his team wholeheartedly."</p>
                 <div className="uk-grid-small uk-flex-middle" data-uk-grid>
                   <div className="uk-width-1-4">
-                    <img src={EricaJ} alt="" className="uk-border-circle" />
+                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1647396623/hungryram/ryan-coyne-serhant-cto.jpg" alt="" className="uk-border-circle" />
                   </div>
                   <div className="uk-width-expand">
                     <p className="uk-text-default uk-text-bold uk-margin-remove">
-                      Erica Jackson
+                    Ryan Coyne
                     </p>
                     <p className="uk-text-default uk-margin-remove">
-                      Broker at Complex Living Real Estate
+                      CTO at <a href="https://serhant.com" className="serhant uk-text-bold" target="_blank">SERHANT.</a>
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div>
-              <img src="https://res.cloudinary.com/hungryram19/image/upload/v1646603539/hungryram/erica-jackson.png" alt="Complex Living Real Estate" />
+              <img src="https://res.cloudinary.com/hungryram19/image/upload/v1641598013/hungryram/the-westly-serhant_yqk1bm.jpg" alt="The Westly" style={{ border: "1px solid #ddd" }} />
             </div>
           </div>
         </div>

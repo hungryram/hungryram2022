@@ -1,5 +1,6 @@
 .navbar-top ul li a {
     min-height: 45px;
+    font-weight: 300;
 }
 
 .navbar-top {
@@ -15,6 +16,7 @@
 div a.mobile-cta:hover {
     color: #fff;
 }
+
 
 .uk-offcanvas-bar {
     background: #fff;
