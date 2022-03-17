@@ -23,6 +23,6 @@ The **Dark Logo** can be used if you have a darken logo that can be used over a 
 
 Uploading your own **favicon** can be important to branding so that way your site can be identified on the browser tab.&nbsp; Take a look at the image below. The favicon should be a small version of your logo, not the full logo. This is usually a symbol or icon.
 
-<img src="/src/images/favicon-sample.jpg" width="192" height="69" />
+![](https://res.cloudinary.com/hungryram19/image/upload/v1647556980/hungryram/favicon-sample.jpg)
 
 These icons are displayed within the Google search result page (SERP) too.&nbsp;
