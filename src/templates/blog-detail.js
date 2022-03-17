@@ -30,7 +30,7 @@ export default function BlogDetail({ data }) {
               <div className="uk-margin-large uk-text-center">
                 <img src={post.frontmatter.featured_image} alt="" />
               </div>
-              <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+              <div dangerouslySetInnerHTML={{ __html: post.html }} />
             </div>
           </div>
         </div>
