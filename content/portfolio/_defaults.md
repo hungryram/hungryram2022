@@ -1,0 +1,21 @@
+---
+client_name: 
+date: 
+speed: 
+performance: 
+seo: 
+introduction: 
+featured_image: 
+image_alt_tag: 
+projects:
+review:
+short_description:
+title: 
+website_link: 
+first_intro:
+  body: 
+  heading: 
+search_engine_optimization:
+  title_tag: 
+  meta_description: 
+---

@@ -1,10 +1,8 @@
 ---
 title: Integrating IHomefinder to your Website
 search_engine_optimization:
-  title_tag: Website Design Overview | Hungry Ram Web Design
-  meta_description: >-
-    Congratulations on getting started with your website with Hungry Ram! We
-    provide guidelines on how you can learn the admin area of your site.
+  title_tag: Integrating IHomefinder to your Website | Hungry Ram Web Design
+  meta_description: Understand the steps of integrating your MLS to your website.
 ---
 If you have a real estate website with us, we can integrate with many IDX software available.
 

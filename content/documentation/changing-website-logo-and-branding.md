@@ -1,10 +1,8 @@
 ---
 title: Changing Website Logo and Branding
 search_engine_optimization:
-  title_tag: Website Design Overview | Hungry Ram Web Design
-  meta_description: >-
-    Congratulations on getting started with your website with Hungry Ram! We
-    provide guidelines on how you can learn the admin area of your site.
+  title_tag: Changing Website Logo and Branding | Hungry Ram Web Design
+  meta_description: Need to make changes to your logo and branding? Read this article and learn how you can update your website branding.
 ---
 
 Updating your branding and logo is important to ensure that your visitors know who you are. To make changes to your logo and site title, follow the steps below:
