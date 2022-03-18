@@ -5,8 +5,17 @@ import PrimaryButton from "../components/blocks/primarybutton"
 import Layout from "../components/Layout"
 import { Link } from "gatsby"
 import * as Styles from "../styles/home.module.css"
-import EricaJ from "../images/erica-jackson.jpg"
+import RyanCoyne from "../images/ryan-coyne-cto-serhant.jpg"
+import UpCity from "../images/best-web-developer-upcity.png"
 import Seo from "../components/Seo"
+
+// FEATURED IMAGES
+import Pho from "../images/pho-ha-plus-diamondbar.jpg"
+import Karina from "../images/karina-crisp_xlhli4.jpg"
+import Krave from "../images/kraveanaheim_igowwj.jpg"
+import RN from "../images/RN-insurance_cyylok.jpg"
+import Westly from "../images/the-westly-serhant_yqk1bm.jpg"
+import Univers from "../images/univers-serhant-landing.jpg"
 
 
 export default function Index() {
@@ -100,7 +109,7 @@ export default function Index() {
                 <img src="https://res.cloudinary.com/hungryram19/image/upload/v1647290400/hungryram/most-reviewed-agency.png" width="120" alt="" />
               </div>
               <div>
-                  <img src="https://upcity-marketplace.s3.amazonaws.com/badge/322/basic_full_color/ce3487ac295db34448302fa1eac6b5ae.png" width="150" alt="TOP WEBSITE DEVELOPER" />
+                  <img src={UpCity} width="150" alt="TOP WEBSITE DEVELOPER" />
               </div>
             </div>
           </div>
@@ -135,42 +144,42 @@ export default function Index() {
             <div>
               <div className={Styles.ukCard}>
                 <Link to="/portfolio/krave-nutrition-anaheim/">
-                  <img src="https://res.cloudinary.com/hungryram19/image/upload/v1645420582/hungryram/kraveanaheim_igowwj.jpg" alt="Krave Anaheim web design" />
+                  <img src={Krave} alt="Krave Anaheim web design" />
                 </Link>
               </div>
             </div>
             <div>
               <div className={Styles.ukCard}>
                 <Link to="/portfolio/univers/">
-                  <img src="https://res.cloudinary.com/hungryram19/image/upload/v1647469500/hungryram/univers-serhant-landing.jpg" alt="Univers landing page design" />
+                  <img src={Univers} alt="Univers landing page design" />
                 </Link>
               </div>
             </div>
             <div>
               <div className={Styles.ukCard}>
                 <Link to="/portfolio/the-westly/">
-                  <img src="https://res.cloudinary.com/hungryram19/image/upload/v1641598013/hungryram/the-westly-serhant_yqk1bm.jpg" alt="The Westly web design" />
+                  <img src={Westly} alt="The Westly web design" />
                 </Link>
               </div>
             </div>
             <div>
               <div className={Styles.ukCard}>
                 <Link to="/portfolio/rn-insurance/">
-                  <img src="https://res.cloudinary.com/hungryram19/image/upload/v1632030927/hungryram/RN-insurance_cyylok.jpg" alt="Rn Insurance web design" />
+                  <img src={RN} alt="Rn Insurance web design" />
                 </Link>
               </div>
             </div>
             <div>
               <div className={Styles.ukCard}>
                 <Link to="/portfolio/karina-crisp-summit-realty/">
-                  <img src="https://res.cloudinary.com/hungryram19/image/upload/v1628098039/hungryram/karina-crisp_xlhli4.jpg" alt="Karina Crisp web design" />
+                  <img src={Karina} alt="Karina Crisp web design" />
                 </Link>
               </div>
             </div>
             <div>
               <div className={Styles.ukCard}>
                 <Link to="/portfolio/pho-ha-plus/">
-                  <img src="https://res.cloudinary.com/hungryram19/image/upload/v1631942389/hungryram/pho-ha-plus-diamondbar.jpg" alt="Pho Ha Plus" />
+                  <img src={Pho} alt="Pho Ha Plus" />
                 </Link>
               </div>
             </div>
@@ -224,7 +233,7 @@ export default function Index() {
                 <p className="uk-text-default">With the partnership we have forged together, our business has been able to achieve our web development goals better than ever before which is why I recommend working with Ram and his team wholeheartedly."</p>
                 <div className="uk-grid-small uk-flex-middle" data-uk-grid>
                   <div className="uk-width-1-4">
-                    <img src="https://res.cloudinary.com/hungryram19/image/upload/v1647396623/hungryram/ryan-coyne-serhant-cto.jpg" alt="" className="uk-border-circle" />
+                    <img src={RyanCoyne} alt="Ryan Coyne CTO of SERHANT." className="uk-border-circle" />
                   </div>
                   <div className="uk-width-expand">
                     <p className="uk-text-default uk-text-bold uk-margin-remove">

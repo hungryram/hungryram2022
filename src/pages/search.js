@@ -14,19 +14,19 @@ export default function Search() {
 
 
     const Hits = connectHits(({ hits }) => (
-        <div className={Styles.resultCard}>
+        <div>
             {hits.length ? (
                 <>
 
                     {hits.map(hit => {
                         return (
-                            <div key={hit.objectID}>
+                            <div className={Styles.resultCard} key={hit.objectID}>
                                 <Link
                                     to={"/documentation" + hit.slug}
                                 >
-                                    <h4 css={{ marginBottom: 0 }}>
+                                    <h2 className="uk-h4">
                                         <Highlight attribute="title" hit={hit} tagName="strong" />
-                                    </h4>
+                                    </h2>
                                     {hit.subtitle ? (
                                         <h5>
                                             <Highlight

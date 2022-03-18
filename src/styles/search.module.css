@@ -3,6 +3,7 @@
     padding: 20px;
     transition: .3s;
     margin-top: 10px;
+    border-radius: 8px;
 }
 
 .result-card:hover {
@@ -28,4 +29,12 @@
 
 .search-box {
     margin-bottom: 50px;
+}
+
+.search-box input {
+    font-size: 17px;
+}
+
+.search-box button {
+    display: none;
 }
