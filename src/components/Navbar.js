@@ -84,17 +84,10 @@ export default function Navbar() {
                                         <a href="#">Resources <BsChevronDown /></a>
                                         <div className="uk-navbar-dropdown">
                                             <ul className="uk-nav uk-navbar-dropdown-nav">
-                                                <li>
-                                                    <Link to="/blog/">Blog</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/faq/">FAQ</Link>
-
-                                                </li>
-                                                <li>
-                                                    <Link to="/documentation/">Documentation</Link>
-
-                                                </li>
+                                                <li><Link to="/blog/">Blog</Link></li>
+                                                <li><Link to="/faq/">FAQ</Link></li>
+                                                <li><Link to="/documentation/">Documentation</Link></li>
+                                                <li><a href="https://hungryram.atlassian.net/servicedesk/customer/portal/3" target="_blank" rel="noopener">Customer Support</a></li>
                                             </ul>
                                         </div>
                                     </li>
@@ -121,7 +114,7 @@ export default function Navbar() {
                     </div>
                     <div className="uk-navbar-right">
                         <a className={`uk-navbar-toggle ${Styles.mobileIcon}`} data-uk-toggle="target: #modal-full">
-                            <HiOutlineMenuAlt3 />    
+                            <HiOutlineMenuAlt3 />
                         </a>
                     </div>
                 </nav>
@@ -198,13 +191,14 @@ export default function Navbar() {
                                             <li><Link to="/blog/">Blog</Link></li>
                                             <li><Link to="/faq/">FAQ</Link></li>
                                             <li><Link to="/documentation/">Documentation</Link></li>
+                                            <li><a href="https://hungryram.atlassian.net/servicedesk/customer/portal/3" target="_blank" rel="noopener">Customer Support</a></li>
                                         </ul>
                                     </li>
                                     <li className={Styles.anchor}><Link to="/contact">Contact</Link></li>
                                 </ul>
                                 <div>
-                                <Link to="/contact" className={`uk-button uk-button-primary uk-width-1-1 ${Styles.mobileCta}`}>Get Started</Link>
-                                <a href="https://calendly.com/hungry-ram" target="_blank" className={`uk-button uk-button-secondary uk-width-1-1 uk-margin-small-top ${Styles.mobileCta}`}>Book a Call</a>
+                                    <Link to="/contact" className={`uk-button uk-button-primary uk-width-1-1 ${Styles.mobileCta}`}>Get Started</Link>
+                                    <a href="https://calendly.com/hungry-ram" target="_blank" className={`uk-button uk-button-secondary uk-width-1-1 uk-margin-small-top ${Styles.mobileCta}`}>Book a Call</a>
                                 </div>
                             </div>
                         </div>
