@@ -23,4 +23,4 @@ Uploading your own **favicon** can be important to branding so that way your sit
 
 ![](https://res.cloudinary.com/hungryram19/image/upload/v1647556980/hungryram/favicon-sample.jpg)
 
-These icons are displayed within the Google search result page (SERP) too.&nbsp;
+These icons are displayed within the Google search result page (SERP) too.
