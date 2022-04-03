@@ -87,7 +87,6 @@ export default function Navbar() {
                                                 <li><Link to="/blog/">Blog</Link></li>
                                                 <li><Link to="/faq/">FAQ</Link></li>
                                                 <li><Link to="/documentation/">Documentation</Link></li>
-                                                <li><a href="https://hungryram.atlassian.net/servicedesk/customer/portal/3" target="_blank" rel="noopener">Customer Support</a></li>
                                             </ul>
                                         </div>
                                     </li>
