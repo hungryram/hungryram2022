@@ -8,7 +8,8 @@ introduction: >-
   Iris is the newest luxury tower in Tribeca. Brought to life by architect
   Ismael Leyva Architects, Iris Tribeca offers every resident private outdoor
   space in one of the city's trendiest neighborhoods.
-featured_image: /src/images/www-iristribeca-com-1920x1080.png
+featured_image: >-
+  https://res.cloudinary.com/hungryram19/image/upload/v1652285813/hungryram/iris-preview.jpg
 image_alt_tag: Iris Tribeca Serhant New Development
 projects:
   - real estate
@@ -27,4 +28,5 @@ search_engine_optimization:
   title_tag: Beauty Hydration Web Design by Hungry Ram
   meta_description: View our case study for Beauty Hydration owned by Shelley Lashley,
 ---
+
 coming soon\!
